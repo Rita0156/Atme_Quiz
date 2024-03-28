@@ -1,0 +1,774 @@
+{
+    "status": "success",
+    "data": {
+        "contest": {
+            "_id": "6604b30057da7d5aabd8b9c3",
+            "quizId": "62cbdb8848e29528cc9e6821",
+            "name": "CRICKET",
+            "quizImage": "cricket.png",
+            "questionSet": {
+                "_id": "62cbdcba48e29528cca106ae",
+                "questionSet": [
+                    {
+                        "question": "Which cricket batsman recently overtaken Virat Kohli No.1 Test ranking?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "David Warner",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0313"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Steve Smith",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0314"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Kane Williamson",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0315"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Rohit Sharma",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0316"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa7a"
+                    },
+                    {
+                        "question": "Which Bowler takes the Most wickets in ICC Champions Trophy?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Shane Warne",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0318"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Wasim Akram",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0319"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Kyle Mills",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f031a"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Hassan Ali",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f031b"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa7b"
+                    },
+                    {
+                        "question": "Which Batsman score most runs in ICC Champions Trophy?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Chris Gayle",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f031d"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Virat Kohli",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f031e"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "AB de Villiers",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f031f"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Kumar Sangakara",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0320"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa7c"
+                    },
+                    {
+                        "question": "The old name of ICC Champions Trophy was ______?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "ICC Round-Robin Tournament",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0322"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "ICC Knockout Tournament",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0323"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "ICC Mini World Cup",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0324"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "ICC Clash of Champions",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0325"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa7d"
+                    },
+                    {
+                        "question": "Up to 2006 the ICC Men’s Champion’s Trophy was held every _______?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "One Year",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0327"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Two years",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0328"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Three Years",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0329"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Four Years",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f032a"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa7e"
+                    },
+                    {
+                        "question": "The leading run-scorer at the ICC Men’s CWC15 was _______?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Martin Guptill",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f032c"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Kumar Sangakkara",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f032d"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "AB de Villiers",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f032e"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Virat Kohli",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f032f"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa7f"
+                    },
+                    {
+                        "question": "Which team has the better head-to-head record at the ICC Cricket World Cup?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "South Africa",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0331"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Pakistan",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0332"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Tied",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0333"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None of these",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0334"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa80"
+                    },
+                    {
+                        "question": "Which team secured the top position in the ICC test rankings with 123 points in May 2017?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "India",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0336"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "South Africa",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0337"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Australia",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0338"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "West Indies",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0339"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa81"
+                    },
+                    {
+                        "question": "ICC has appointed whom as the official ambassador of the Women's Cricket World Cup 2017?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Sachin Tendulkar",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f033b"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Anil Kumble",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f033c"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Sunil Gavaskar",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f033d"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Rahul Dravid",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f033e"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa82"
+                    },
+                    {
+                        "question": "Which woman cricketer won the BCCI award for the first time?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Shanta Rangaswamy",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0340"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Mithali Raj",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0341"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Harmanpreet Kaur",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0342"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Mamta Maben",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0343"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa83"
+                    },
+                    {
+                        "question": "Which bowler became the fastest to take 250 wickets in Test matches?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Dennis Lillee",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0345"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Brett Lee",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0346"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Waqar Younis",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0347"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0348"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa84"
+                    },
+                    {
+                        "question": "Who is known as the female Don Bradman in the cricketing world?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Betty Wilson",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f034a"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Sana Mir",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f034b"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Mithali Raj",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f034c"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Meghann Moira Lanning",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f034d"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa85"
+                    },
+                    {
+                        "question": "What is Sachin Saga Warm Up?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "A book on cricket",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f034f"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "A VCD on cricket",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0350"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "A game on cricket",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0351"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None of the above",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0352"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa86"
+                    },
+                    {
+                        "question": "A Pakistani Sikh has secured a place in the national cricket academy for the first time. Who is he?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Mahinder Pal Singh",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0354"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Maninder Pal Singh",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0355"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Manjeet Pal Singh",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0356"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None of the above",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0357"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa87"
+                    },
+                    {
+                        "question": "Indian Off Spinner R Ashwin is on which position of the MRF Tyres ICC Player Rankings for test bowlers?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "2nd",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0359"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "3rd",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f035a"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "4th",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f035b"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None of the above",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f035c"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa88"
+                    },
+                    {
+                        "question": "Who has been appointed ICC Cricket Committee chairman for second time:",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Rahul Dravid",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f035e"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Anil Kumble",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f035f"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Mahela Jayawardene",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0360"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None of the above",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0361"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa89"
+                    },
+                    {
+                        "question": "Which cricket administrator has been elected as ICC”s first independent chairman?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Shashank Manohar",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0363"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Jagmohan Dalmiya",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0364"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Aniil Kumble",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0365"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Ravi Shastri",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0366"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa8a"
+                    },
+                    {
+                        "question": "Who has been appointed as chief selector of the Sri Lankan Cricket team?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Sanath Jayasuriya",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0368"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Romesh Kaluwitharana",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0369"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Pramodya Wickramasinghe",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f036a"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None of the above",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f036b"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa8b"
+                    },
+                    {
+                        "question": "Who is the first non cricketer to be inducted into Legends Club of CCI?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Nandu Natekar",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f036d"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Kapil Dev",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f036e"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Raj Singh Dungarpur",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f036f"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "None of the above",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0370"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa8c"
+                    },
+                    {
+                        "question": "Which Mumbai cricketer has become the first batsman in the country to score 1000 plus runs in an innings in any form of cricket?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "MS Dhoni",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0372"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Viral Kohli",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0373"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Ajinkya Rahane",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0374"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Pranav Dhanawade",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0375"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa8d"
+                    },
+                    {
+                        "question": "Which Aussie cricketer announced his decision to retire before the Perth Test fifth Match against New Zealand?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Shane Warne",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0377"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Steve Waugh",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0378"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Michael Clarke",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0379"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Mitchell Johnson",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f037a"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa8e"
+                    },
+                    {
+                        "question": "Which former England cricketer died on 27th September 2015 in Australia?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Tom Armitage",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f037c"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Leland Hone",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f037d"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Alfred Shaw",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f037e"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Frank Tyson",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f037f"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa8f"
+                    },
+                    {
+                        "question": "Name the Indian bowler who reached a landmark climbing to ninth in the all-time highest Test wicket-takers?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Bhomesh Kumar",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0381"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "R Ashwin",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0382"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Harbhajan Singh",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0383"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Mohammad Sami",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0384"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa90"
+                    },
+                    {
+                        "question": "Who has been named as Coach of India A and Under-19 cricket teams after the first meeting of BCCI's advisory committee in Kolkata?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Sourav Ganguly",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0386"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Rahul Dravid",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f0387"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Ravi Shastri",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0388"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "K Srikanth",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f0389"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa91"
+                    },
+                    {
+                        "question": "Name the Australian Wicketkeeper who announced his retirement from One Day International Cricket just a day before leaving for a tour to West Indies and England?",
+                        "answerOptions": [
+                            {
+                                "option": 1,
+                                "answer": "Steve Smith",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f038b"
+                            },
+                            {
+                                "option": 2,
+                                "answer": "Adam Gilchrist",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f038c"
+                            },
+                            {
+                                "option": 3,
+                                "answer": "Brad Haddin",
+                                "isCorrectAnswer": true,
+                                "_id": "62cbdbd348e29528cc9f038d"
+                            },
+                            {
+                                "option": 4,
+                                "answer": "Mark Hughes",
+                                "isCorrectAnswer": false,
+                                "_id": "62cbdbd348e29528cc9f038e"
+                            }
+                        ],
+                        "_id": "62cbdbd248e29528cc9efa92"
+                    }
+                ]
+            },
+            "prizeId": "62cbdd6c48e29528cca25add",
+            "slug": "cricket",
+            "entryCoins": 20,
+            "winningCoins": 60000,
+            "startTime": "2024-03-28T01:15:00.000Z",
+            "endTime": "2024-03-28T07:15:00.000Z"
+        }
+    }
+}
+
+
