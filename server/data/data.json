@@ -14,7 +14,7 @@
                 "startTime": "2024-03-28T02:00:00.000Z",
                 "endTime": "2024-03-28T08:00:00.000Z",
                 "questionSet": {
-                    "_id": "62cbdcba48e29528cca106ae",
+                   
                     "questionSet": [
                         {
                             "question": "Which cricket batsman recently overtaken Virat Kohli No.1 Test ranking?",
@@ -163,8 +163,8 @@
                                     "isCorrectAnswer": false,
                                     "_id": "62cbdbd348e29528cc9f032a"
                                 }
-                            ],
-                            "_id": "62cbdbd248e29528cc9efa7e"
+                            ]
+                            
                         },
                         {
                             "question": "The leading run-scorer at the ICC Men’s CWC15 was _______?",
@@ -782,7 +782,7 @@
                 "startTime": "2024-03-28T02:30:00.000Z",
                 "endTime": "2024-03-28T08:30:00.000Z",
                 "questionSet": {
-                    "_id": "62cbdd2a48e29528cca1e2b9",
+                    
                     "questionSet": [
                         {
                             "question": "An exhibition titled 'Swachhagraha - Bapu Ko Karyanjali' has inaugurated in which city to mark 100 years of the historic Champaran Satyagraha?",
@@ -811,8 +811,8 @@
                                     "isCorrectAnswer": true,
                                     "_id": "62cbdc2848e29528cc9ffdd8"
                                 }
-                            ],
-                            "_id": "62cbdc2848e29528cc9ff730"
+                            ]
+                           
                         },
                         {
                             "question": "The Union Government has launched CPS programme to deal with autonomous unmanned vehicles. What does 'CPS' stands for?",
@@ -1551,7 +1551,7 @@
                 "startTime": "2024-03-28T02:45:00.000Z",
                 "endTime": "2024-03-28T08:45:00.000Z",
                 "questionSet": {
-                    "_id": "62cbdd4748e29528cca20f9e",
+                  
                     "questionSet": [
                         {
                             "question": "which country did india lose to in the semi finals of the men's cricket world cup 2015?",
@@ -1580,8 +1580,8 @@
                                     "isCorrectAnswer": true,
                                     "_id": "62cbdc3748e29528cca02b35"
                                 }
-                            ],
-                            "_id": "62cbdc3748e29528cca02299"
+                            ]
+                           
                         },
                         {
                             "question": "Jeev milkha singh is associated with which game?",
@@ -1610,8 +1610,7 @@
                                     "isCorrectAnswer": false,
                                     "_id": "62cbdc3748e29528cca02b3a"
                                 }
-                            ],
-                            "_id": "62cbdc3748e29528cca0229a"
+                            ]
                         },
                         {
                             "question": "Which country won 2016 men's hockey champions trophy ?",
@@ -1640,8 +1639,7 @@
                                     "isCorrectAnswer": true,
                                     "_id": "62cbdc3748e29528cca02b3f"
                                 }
-                            ],
-                            "_id": "62cbdc3748e29528cca0229b"
+                            ]
                         },
                         {
                             "question": "Dronacharya award is given for excellence in which of the following fields?",
@@ -1670,8 +1668,7 @@
                                     "isCorrectAnswer": false,
                                     "_id": "62cbdc3748e29528cca02b44"
                                 }
-                            ],
-                            "_id": "62cbdc3748e29528cca0229c"
+                            ]
                         },
                         {
                             "question": "Prince of wales cup is associated with_____",
