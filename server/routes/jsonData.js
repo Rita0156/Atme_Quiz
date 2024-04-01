@@ -1,0 +1,23 @@
+
+
+const {
+    deleteQuizSet,
+    updateQuizSet,
+    createQuiz,
+    getCategoryWiseData,
+    getQuizQuetionsById,
+    getAllQuiz
+} = require('../controller/cricket/index');
+
+const Router = require('express');
+
+const jsonDataRouter = Router();
+jsonDataRouter.put('/:id',updateQuizSet)
+jsonDataRouter.post('/',createQuiz)
+jsonDataRouter.get('/category/:name',getCategoryWiseData)
+jsonDataRouter.delete('/:id', deleteQuizSet)
+jsonDataRouter.get('/data/:id',getQuizQuetionsById);
+jsonDataRouter.get('/',getAllQuiz)
+module.exports = {
+    jsonDataRouter
+}
