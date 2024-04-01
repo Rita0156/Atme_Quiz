@@ -15,7 +15,7 @@ const getCategoryWiseData = (req, res) => {
   if (name == "CONTEST") {
     const encounteredNames = new Set();
 
-    const filteredArray = results.filter((obj) => {
+    const filteredArray = allData.data.contest.filter((obj) => {
       if (!encounteredNames.has(obj.name)) {
         encounteredNames.add(obj.name);
         return true;
@@ -23,7 +23,7 @@ const getCategoryWiseData = (req, res) => {
       return false;
     });
 
-    console.log(filteredArray);
+    console.log(filteredArray,'7777777777777777777777777777777777777777');
     res.status(200).json(filteredArray);
   } else {
     var cricketData = allData.data.contest.filter((ele) => {

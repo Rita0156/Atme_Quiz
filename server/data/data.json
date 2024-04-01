@@ -51403,6 +51403,774 @@
                         }
                     ]
                 }
+            },
+
+             {
+                "_id": "660a314057da7d5aabc440ed",
+                "quizId": "62cbdb8848e29528cc9e682c",
+                "name": "MATH",
+                "quizImage": "math.png",
+                "questionSet": {
+                    "_id": "62cbdd2548e29528cca1d3f9",
+                    "questionSet": [
+                        {
+                            "question": "The value of 1.07 × 65 X 1.07 × 26 X1.07 × 9X0 is;",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "10.73",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5b2"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "10.7",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5b3"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "10.7",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5b4"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "0",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5b5"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe165"
+                        },
+                        {
+                            "question": "0.05 × 0.09 × 5 = ………. .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "0.005",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5b7"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "0.0225",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5b8"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "0.025",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5b9"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "0.225",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5ba"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe166"
+                        },
+                        {
+                            "question": "(4)²+ (3)² = (……..)².",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "5",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5bc"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "14",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5bd"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "25",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5be"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "7",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5bf"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe167"
+                        },
+                        {
+                            "question": "Area of a square =",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "Side × side",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5c1"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "2 × side",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5c2"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "3 × side",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5c3"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "4 × side",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5c4"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe168"
+                        },
+                        {
+                            "question": "90112 – 3123 = ……….. .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "86989",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5c6"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "87099",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5c7"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "93235",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5c8"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "96989",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5c9"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe169"
+                        },
+                        {
+                            "question": "What should come in place of question mark (?) In the following question?\n4 : 13 :: 64 : …….. .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "168",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5cb"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "198",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5cc"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "208",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5cd"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "228",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5ce"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe16a"
+                        },
+                        {
+                            "question": "Area of a rectangle of length l and breadth b is",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "L × b",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5d0"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "L + b",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5d1"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "2 × (l + b)",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5d2"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "6 × (l + b)",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5d3"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe16b"
+                        },
+                        {
+                            "question": "What percentage should be added to 40 to make it 50?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "15",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5d5"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "25",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5d6"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "75",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5d7"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "80",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5d8"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe16c"
+                        },
+                        {
+                            "question": "Which is the smallest fraction among the following?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "03-Apr",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5da"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "06-May",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5db"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "06-Jul",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5dc"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "02-Mar",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5dd"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe16d"
+                        },
+                        {
+                            "question": "4.16 × 0.75X0 = ………… .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "0.312",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5df"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "0.0312",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5e0"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "0",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5e1"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "31.2",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5e2"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe16e"
+                        },
+                        {
+                            "question": "Area of a parallelogram =",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "Base × height",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5e4"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "12 × base × height",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5e5"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "13 × base × height",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5e6"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "14 × base × height",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5e7"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe16f"
+                        },
+                        {
+                            "question": "What is the square of 9?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "80",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5e9"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "81",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5ea"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "45",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5eb"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "50",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5ec"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe170"
+                        },
+                        {
+                            "question": "The circumference of a circle of radius r is",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "Πr",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5ee"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "2πr",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5ef"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "Πr2",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5f0"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "14 πr2",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5f1"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe171"
+                        },
+                        {
+                            "question": "Hcf of 8,9,25 ?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "8",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5f3"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "9",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5f4"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "25",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5f5"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "1",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5f6"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe172"
+                        },
+                        {
+                            "question": "What is the coefficient of x in the expression 4x + 3y?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "1",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5f8"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "2",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5f9"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "3",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5fa"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "4",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5fb"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe173"
+                        },
+                        {
+                            "question": "Take out the wrong number from the given series.\n3, 4, 9, 33, 136, 685, 4116",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "33",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5fd"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "136",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe5fe"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "9",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe5ff"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "685",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe600"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe174"
+                        },
+                        {
+                            "question": "The average of first 50 natural numbers is …………. .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "25.3",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe602"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "25.5",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe603"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "25",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe604"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "12.25",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe605"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe175"
+                        },
+                        {
+                            "question": "What cross-section do you get when you give a horizontal cut to a brick?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "Triangle",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe607"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "Circle",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe608"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "Square",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe609"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "Rectangle",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe60a"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe176"
+                        },
+                        {
+                            "question": "The number of 3-digit numbers divisible by 6, is ………….. .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "149",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe60c"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "166",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe60d"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "150",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe60e"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "151",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe60f"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe177"
+                        },
+                        {
+                            "question": "What is 1004 divided by 2?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "52",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe611"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "502",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe612"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "520",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe613"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "5002",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe614"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe178"
+                        },
+                        {
+                            "question": "Which number is divisible by 11 ?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "1516",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe616"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "1452",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe617"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "1011",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe618"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "1121",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe619"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe179"
+                        },
+                        {
+                            "question": "Which of the following numbers gives 240 when added to its own square?",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "15",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe61b"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "16",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe61c"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "18",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe61d"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "20",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe61e"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe17a"
+                        },
+                        {
+                            "question": "Evaluation of 83 × 82 × 85x0 is …………. .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "1",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe620"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "0",
+                                    "isCorrectAnswer": true,
+                                    "_id": "62cbdc2148e29528cc9fe621"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "8",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe622"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "None of these.",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe623"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe17b"
+                        },
+                        {
+                            "question": "The simplest form of 1.5 : 2.5 Is …………… .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "06:10",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe625"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "15:25",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe626"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "0.75 : 1.25",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe627"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "03:05",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe628"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe17c"
+                        },
+                        {
+                            "question": "The square root of 0.0081 Is ………… .",
+                            "answerOptions": [
+                                {
+                                    "option": 1,
+                                    "answer": "0.09",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe62a"
+                                },
+                                {
+                                    "option": 2,
+                                    "answer": "0.9",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe62b"
+                                },
+                                {
+                                    "option": 3,
+                                    "answer": "0.91",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe62c"
+                                },
+                                {
+                                    "option": 4,
+                                    "answer": "0.009",
+                                    "isCorrectAnswer": false,
+                                    "_id": "62cbdc2148e29528cc9fe62d"
+                                }
+                            ],
+                            "_id": "62cbdc2148e29528cc9fe17d"
+                        }
+                    ]
+                },
+                "prizeId": "62cbdd6c48e29528cca25ac5",
+                "slug": "math",
+                "entryCoins": 100,
+                "winningCoins": 300000,
+                "startTime": "2024-04-01T05:00:00.000Z",
+                "endTime": "2024-04-01T11:00:00.000Z"
             }
         ]
     }

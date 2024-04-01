@@ -2,7 +2,7 @@ const router = require("express").Router();
 const passport = require("passport");
 
 router.get("/login/success", (req, res) => {
-	// console.log(req,'anything))))))))))))))))))))000000000000000000000000000')
+	
 	if (req.user) {
 		res.status(200).json({
 			error: false,
@@ -18,6 +18,7 @@ router.get("/login/failed", (req, res) => {
 	res.status(401).json({
 		error: true,
 		message: "Log in failure",
+		err : "Error when login failed"
 	});
 });
 
@@ -32,13 +33,13 @@ router.get(
 );
 
 router.get("/logout", (req, res) => {
-	req.logout();
-	res.redirect('http://localhost:3000');
+	// req.logout();
+	// res.redirect('http://localhost:3000');
 
-	// req.logout(function(err) {
-	// 	if (err) { return next(err); }
-	// 	res.redirect('http://localhost:3000');
-	//   })
+	req.logout(function(err) {
+		if (err) { return next(err); }
+		res.redirect('http://localhost:3000');
+	  })
 });
 
 module.exports = router;
