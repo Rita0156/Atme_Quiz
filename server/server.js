@@ -8,6 +8,7 @@ const passportStrategy = require('./googleAuth/passport')
 const authRoute = require('./controller/google/index')
 const passport =require('passport');
 const cookieSession = require("cookie-session");
+const {authentication} = require('./middleware/index')
 require("dotenv").config();
 const PORT = process.env.PORT || 7500;
 
@@ -52,9 +53,9 @@ app.use("/auth", authRoute);
 app.get("/", (req, res) => {
   res.json("api running currently is Atme_quiz");
 });
-
-app.use("/api/contest",categoryRouter);
-app.use('/api/json',jsonDataRouter);
+app.use('/',authentication)
+// app.use("/api/contest",categoryRouter);
+app.use('/api/contests',jsonDataRouter);
 
 app.listen(PORT, async () => {
   try {

@@ -7,7 +7,7 @@ const {
     getCategoryWiseData,
     getQuizQuetionsById,
     getAllQuiz
-} = require('../controller/cricket/index');
+} = require('../controller/jsondata/index');
 
 const Router = require('express');
 

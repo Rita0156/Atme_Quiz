@@ -1,13 +1,18 @@
 const router = require("express").Router();
 const passport = require("passport");
-
+const jwt = require('jsonwebtoken')
+const Secrete = process.env.SECREATE_KEY
 router.get("/login/success", (req, res) => {
 	
 	if (req.user) {
+		
+		const token=jwt.sign(req.user.id,Secrete)
+		console.log(token,'%%%%%%%%%%%%%%%%%%%%%%%%%%')
 		res.status(200).json({
 			error: false,
 			message: "Successfully Loged In",
 			user: req.user,
+			token
 		});
 	} else {
 		res.status(403).json({ error: true, message: "Not Authorized" });

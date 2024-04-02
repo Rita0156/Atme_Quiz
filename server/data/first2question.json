@@ -1,69 +1,1476 @@
 {
-   "Question" : [
+  "Question": [
     {
-        
-            "question": "India is a federal union comprising twenty-eight states and how many union territories?",
-            "answerOptions": [
-                {
-                    "option": 1,
-                    "answer": "Six",
-                    "isCorrectAnswer": false
-                    
-                },
-                {
-                    "option": 2,
-                    "answer": "Seven",
-                    "isCorrectAnswer": false
-                    
-                },
-                {
-                    "option": 3,
-                    "answer": "Eight",
-                    "isCorrectAnswer": true
-                   
-                },
-                {
-                    "option": 4,
-                    "answer": "Nine",
-                    "isCorrectAnswer": false
-                  
-                }
-            ]
-           
-        
-        
+      "question": "India is a federal union comprising twenty-eight states and how many union territories?",
+      "answerOptions": [
+        { "option": 1, "answer": "Six", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Seven", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Eight", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Nine", "isCorrectAnswer": false }
+      ],
+      "_id": 1
     },
     {
-        "question": "Which of the following is the capital of Arunachal Pradesh?",
-        "answerOptions": [
-            {
-                "option": 1,
-                "answer": "Itanagar",
-                "isCorrectAnswer": true
-                
-            },
-            {
-                "option": 2,
-                "answer": "Dispur",
-                "isCorrectAnswer": false
-        
-            },
-            {
-                "option": 3,
-                "answer": "Imphal",
-                "isCorrectAnswer": false
-             
-            },
-            {
-                "option": 4,
-                "answer": "Panaji",
-                "isCorrectAnswer": false
-                
-            }
-        ]
-      
+      "question": "Which of the following is the capital of Arunachal Pradesh?",
+      "answerOptions": [
+        { "option": 1, "answer": "Itanagar", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Dispur", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Imphal", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Panaji", "isCorrectAnswer": false }
+      ],
+      "_id": 2
+    },
+    {
+      "question": "Who is the author of the novel 'Pride and Prejudice'?",
+      "answerOptions": [
+        { "option": 1, "answer": "Jane Austen", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Emily Brontë", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Charlotte Brontë", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Thomas Hardy", "isCorrectAnswer": false }
+      ],
+      "_id": 3
+    },
+    {
+      "question": "Who painted the famous artwork 'Starry Night'?",
+      "answerOptions": [
+        { "option": 1, "answer": "Vincent van Gogh", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Pablo Picasso", "isCorrectAnswer": false },
+        {
+          "option": 3,
+          "answer": "Leonardo da Vinci",
+          "isCorrectAnswer": false
+        },
+        { "option": 4, "answer": "Michelangelo", "isCorrectAnswer": false }
+      ],
+      "_id": 4
+    },
+    {
+      "question": "What is the chemical symbol for the element gold?",
+      "answerOptions": [
+        { "option": 1, "answer": "Au", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Ag", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Fe", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Cu", "isCorrectAnswer": false }
+      ],
+      "_id": 5
+    },
+    {
+      "question": "Who wrote the novel 'To Kill a Mockingbird'?",
+      "answerOptions": [
+        { "option": 1, "answer": "Harper Lee", "isCorrectAnswer": true },
+        { "option": 2, "answer": "J.K. Rowling", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Mark Twain", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Charles Dickens", "isCorrectAnswer": false }
+      ],
+      "_id": 6
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "answerOptions": [
+        { "option": 1, "answer": "Mars", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Jupiter", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Venus", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Mercury", "isCorrectAnswer": false }
+      ],
+      "_id": 7
+    },
+    {
+      "question": "Who is the founder of Microsoft Corporation?",
+      "answerOptions": [
+        { "option": 1, "answer": "Bill Gates", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Steve Jobs", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Larry Page", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Jeff Bezos", "isCorrectAnswer": false }
+      ],
+      "_id": 8
+    },
+    {
+      "question": "Who wrote the play 'Romeo and Juliet'?",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "William Shakespeare",
+          "isCorrectAnswer": true
+        },
+        { "option": 2, "answer": "John Milton", "isCorrectAnswer": false },
+        {
+          "option": 3,
+          "answer": "George Bernard Shaw",
+          "isCorrectAnswer": false
+        },
+        { "option": 4, "answer": "T.S. Eliot", "isCorrectAnswer": false }
+      ],
+      "_id": 9
+    },
+    {
+      "question": "Which country is famous for the Great Wall?",
+      "answerOptions": [
+        { "option": 1, "answer": "China", "isCorrectAnswer": true },
+        { "option": 2, "answer": "India", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Japan", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Russia", "isCorrectAnswer": false }
+      ],
+      "_id": 10
+    },
+    {
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answerOptions": [
+        { "option": 1, "answer": "Marie Curie", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Mother Teresa", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Jane Addams", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Dorothy Hodgkin", "isCorrectAnswer": false }
+      ],
+      "_id": 11
+    },
+    {
+      "question": "Who was the first President of the United States?",
+      "answerOptions": [
+        { "option": 1, "answer": "George Washington", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Thomas Jefferson", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Abraham Lincoln", "isCorrectAnswer": false },
+        { "option": 4, "answer": "John Adams", "isCorrectAnswer": false }
+      ],
+      "_id": 12
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "answerOptions": [
+        { "option": 1, "answer": "Canberra", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Sydney", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Melbourne", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Brisbane", "isCorrectAnswer": false }
+      ],
+      "_id": 13
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "answerOptions": [
+        { "option": 1, "answer": "Pacific Ocean", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Atlantic Ocean", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Indian Ocean", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Arctic Ocean", "isCorrectAnswer": false }
+      ],
+      "_id": 14
+    },
+    {
+      "question": "Who wrote the famous novel '1984'?",
+      "answerOptions": [
+        { "option": 1, "answer": "George Orwell", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Aldous Huxley", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Ray Bradbury", "isCorrectAnswer": false },
+        { "option": 4, "answer": "J.R.R. Tolkien", "isCorrectAnswer": false }
+      ],
+      "_id": 15
+    },
+    {
+      "question": "What is the largest mammal in the world?",
+      "answerOptions": [
+        { "option": 1, "answer": "Blue whale", "isCorrectAnswer": true },
+        { "option": 2, "answer": "African elephant", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Giraffe", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Hippopotamus", "isCorrectAnswer": false }
+      ],
+      "_id": 16
+    },
+    {
+      "question": " In what year did the Great October Socialist Revolution take place?",
+      "answerOptions": [
+        { "option": 1, "answer": "1917", "isCorrectAnswer": true },
+        { "option": 2, "answer": "1930", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1952", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1947", "isCorrectAnswer": false }
+      ],
+      "_id": 17
+    },
+    {
+      "question": "What is the largest lake in the world?",
+      "answerOptions": [
+        { "option": 1, "answer": "Caspian Sea", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Baikal", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Lake Superior", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Ontario", "isCorrectAnswer": false }
+      ],
+      "_id": 18
+    },
+    {
+      "question": "Which planet in the solar system is known as the “Red Planet”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Venus", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Earth", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Mars", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Jupiter", "isCorrectAnswer": false }
+      ],
+      "_id": 19
+    },
+    {
+      "question": "Who wrote the novel “War and Peace”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Anton Chekhov", "isCorrectAnswer": false },
+        {
+          "option": 2,
+          "answer": "Fyodor Dostoevsky",
+          "isCorrectAnswer": false
+        },
+        { "option": 3, "answer": "Leo Tolstoy", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Ivan Turgenev", "isCorrectAnswer": false }
+      ],
+      "_id": 20
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "answerOptions": [
+        { "option": 1, "answer": "Beijing", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Tokyo", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Seoul", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Bangkok", "isCorrectAnswer": false }
+      ],
+      "_id": 21
+    },
+    {
+      "question": "Which river is the longest in the world?",
+      "answerOptions": [
+        { "option": 1, "answer": "Amazon", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Mississippi", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Nile", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Yangtze", "isCorrectAnswer": false }
+      ],
+      "_id": 22
+    },
+    {
+      "question": "What gas is used to extinguish fires?",
+      "answerOptions": [
+        { "option": 1, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Nitrogen", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Carbon dioxide", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Hydrogen", "isCorrectAnswer": false }
+      ],
+      "_id": 23
+    },
+    {
+      "question": "What animal is the national symbol of Australia?",
+      "answerOptions": [
+        { "option": 1, "answer": "Kangaroo", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Koala", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Emu", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Crocodile", "isCorrectAnswer": false }
+      ],
+      "_id": 24
+    },
+    {
+      "question": "Which of the following planets is not a gas giant?",
+      "answerOptions": [
+        { "option": 1, "answer": "Mars", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Jupiter", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Saturn", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Uranus", "isCorrectAnswer": false }
+      ],
+      "_id": 25
+    },
+    {
+      "question": "What is the name of the process by which plants convert sunlight into energy?",
+      "answerOptions": [
+        { "option": 1, "answer": "Respiration", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Photosynthesis", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Oxidation", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Evolution", "isCorrectAnswer": false }
+      ],
+      "_id": 26
+    },
+    {
+      "question": "What chemical element is designated as “Hg”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Silver", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Tin", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Copper", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Mercury", "isCorrectAnswer": true }
+      ],
+      "_id": 27
+    },
+    {
+      "question": "In what year was the first international modern Olympiad held?",
+      "answerOptions": [
+        { "option": 1, "answer": "1896", "isCorrectAnswer": true },
+        { "option": 2, "answer": "1900", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1912", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1924", "isCorrectAnswer": false }
+      ],
+      "_id": 28
+    },
+    {
+      "question": "For which of these disciplines Nobel Prize is awarded?",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "Physics, Chemistry",
+          "isCorrectAnswer": false
+        },
+        { "option": 2, "answer": "Physiology", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Medicine", "isCorrectAnswer": false },
+        { "option": 4, "answer": "All of the above", "isCorrectAnswer": true }
+      ],
+      "_id": 29
+    },
+    {
+      "question": "Entomology is the science that studies:",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "Behavior of human beings",
+          "isCorrectAnswer": false
+        },
+        { "option": 2, "answer": "Insects", "isCorrectAnswer": true },
+        {
+          "option": 3,
+          "answer": "The origin and history of technical and scientific terms",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 4,
+          "answer": "The formation of rocks",
+          "isCorrectAnswer": false
+        }
+      ],
+      "_id": 30
+    },
+    {
+      "question": "Hitler's party is known as:",
+      "answerOptions": [
+        { "option": 1, "answer": "Labour Party", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Nazi Party", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Ku-Klux-Klan", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Democratic Party", "isCorrectAnswer": false }
+      ],
+      "_id": 31
+    },
+    {
+      "question": "For which Galileo is famous?",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "Developed the telescope",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 2,
+          "answer": "Discovered four satellites of Jupiter",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 3,
+          "answer": "Found that the swinging motion of the pendulum results in consistent time measurement.",
+          "isCorrectAnswer": false
+        },
+        { "option": 4, "answer": "All of the above", "isCorrectAnswer": true }
+      ],
+      "_id": 32
+    },
+    {
+      "question": "When the First Afghan War took place in",
+      "answerOptions": [
+        { "option": 1, "answer": "1839", "isCorrectAnswer": true },
+        { "option": 2, "answer": "1843", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1833", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1848", "isCorrectAnswer": false }
+      ],
+      "_id": 33
+    },
+    {
+      "question": "Ecology deals with",
+      "answerOptions": [
+        { "option": 1, "answer": "Birds", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Cell formation", "isCorrectAnswer": false },
+        {
+          "option": 3,
+          "answer": "Relation between organisms and their environment",
+          "isCorrectAnswer": true
+        },
+        { "option": 4, "answer": "Tissues", "isCorrectAnswer": false }
+      ],
+      "_id": 34
+    },
+    {
+      "question": "Which is the largest island?",
+      "answerOptions": [
+        { "option": 1, "answer": "New Guinea", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Andaman Nicobar", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Greenland", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Hawaii", "isCorrectAnswer": false }
+      ],
+      "_id": 35
+    },
+    {
+      "question": "Which one is the hottest continent?",
+      "answerOptions": [
+        { "option": 1, "answer": "Africa", "isCorrectAnswer": true },
+        { "option": 2, "answer": "South Asia", "isCorrectAnswer": false },
+        { "option": 3, "answer": "North America", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Australia", "isCorrectAnswer": false }
+      ],
+      "_id": 36
+    },
+    {
+      "question": "What do Koalas usually eat?",
+      "answerOptions": [
+        { "option": 1, "answer": "Bamboo", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Eucalyptus", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Aloe Vera", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Banana", "isCorrectAnswer": false }
+      ],
+      "_id": 37
+    },
+    {
+      "question": "What is the most popular bread in France?",
+      "answerOptions": [
+        { "option": 1, "answer": "Brioche", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Baguette", "isCorrectAnswer": true },
+        { "option": 3, "answer": "White bread", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Ciabatta", "isCorrectAnswer": false }
+      ],
+      "_id": 38
+    },
+    {
+      "question": "What is the official currency of Japan?",
+      "answerOptions": [
+        { "option": 1, "answer": "Won", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Yuan", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Yen", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Dollars", "isCorrectAnswer": false }
+      ],
+      "_id": 39
+    },
+    {
+      "question": "What is the phobia of thunder and rain?",
+      "answerOptions": [
+        { "option": 1, "answer": "Agoraphobia", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Ombrophobia", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Acrophobia", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Claustrophobia", "isCorrectAnswer": false }
+      ],
+      "_id": 40
+    },
+    {
+      "question": "What does Carpe Diem mean in Latin?",
+      "answerOptions": [
+        { "option": 1, "answer": "Enjoy the moment", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Have no fear", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Sorry I blew it", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Hello", "isCorrectAnswer": false }
+      ],
+      "_id": 41
+    },
+    {
+      "question": "Which one of the following countries is not in Africa?",
+      "answerOptions": [
+        { "option": 1, "answer": "Morocco", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Yemen", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Sudan", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Algeria", "isCorrectAnswer": false }
+      ],
+      "_id": 42
+    },
+    {
+      "question": "What is considered the lung of the Earth?",
+      "answerOptions": [
+        { "option": 1, "answer": "Amazon rainforest", "isCorrectAnswer": true },
+        {
+          "option": 2,
+          "answer": "The Mississippi River",
+          "isCorrectAnswer": false
+        },
+        { "option": 3, "answer": "The Sahara", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Everest", "isCorrectAnswer": false }
+      ],
+      "_id": 43
+    },
+    {
+      "question": "Where does the Sushi come from?",
+      "answerOptions": [
+        { "option": 1, "answer": "Japan", "isCorrectAnswer": true },
+        { "option": 2, "answer": "China", "isCorrectAnswer": false },
+        { "option": 3, "answer": "America", "isCorrectAnswer": false },
+        { "option": 4, "answer": "South Korea", "isCorrectAnswer": false }
+      ],
+      "_id": 44
+    },
+    {
+      "question": "In which century the Mona Lisa was painted?",
+      "answerOptions": [
+        { "option": 1, "answer": "18th century", "isCorrectAnswer": false },
+        { "option": 2, "answer": "15th century", "isCorrectAnswer": false },
+        { "option": 3, "answer": "16th century", "isCorrectAnswer": true },
+        { "option": 4, "answer": "14th century", "isCorrectAnswer": false }
+      ],
+      "_id": 45
+    },
+    {
+      "question": "Who wrote the “Great Gatsby” novel?",
+      "answerOptions": [
+        { "option": 1, "answer": "Leo Tolstoy", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Hemingway", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Stephen King", "isCorrectAnswer": false },
+        {
+          "option": 4,
+          "answer": "F. Scott Fitzgerald",
+          "isCorrectAnswer": true
+        }
+      ],
+      "_id": 46
+    },
+    {
+      "question": "Which is the richest country in the world?",
+      "answerOptions": [
+        { "option": 1, "answer": "Qatar", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Russia", "isCorrectAnswer": false },
+        { "option": 3, "answer": "The USA", "isCorrectAnswer": false },
+        { "option": 4, "answer": "The UAE", "isCorrectAnswer": false }
+      ],
+      "_id": 47
+    },
+    {
+      "question": "Which county is the biggest grower of coffee?",
+      "answerOptions": [
+        { "option": 1, "answer": "Spain", "isCorrectAnswer": false },
+        { "option": 2, "answer": "India", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Ethiopia", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Brazil", "isCorrectAnswer": true }
+      ],
+      "_id": 48
+    },
+    {
+      "question": "How many bones are in the body of an adult human?",
+      "answerOptions": [
+        { "option": 1, "answer": "330", "isCorrectAnswer": false },
+        { "option": 2, "answer": "206", "isCorrectAnswer": true },
+        { "option": 3, "answer": "250", "isCorrectAnswer": false },
+        { "option": 4, "answer": "210", "isCorrectAnswer": false }
+      ],
+      "_id": 49
+    },
+    {
+      "question": "When the humans use more facial muscles?",
+      "answerOptions": [
+        { "option": 1, "answer": "While smiling", "isCorrectAnswer": false },
+        { "option": 2, "answer": "While frowning", "isCorrectAnswer": true },
+        { "option": 3, "answer": "While sleeping", "isCorrectAnswer": false },
+        { "option": 4, "answer": "While talking", "isCorrectAnswer": false }
+      ],
+      "_id": 50
+    },
+    {
+      "question": "Who wrote “Crime and Punishment”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Leo Tolstoy", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Fyodor Dostoevsky", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Anton Chekhov", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Ivan Turgenev", "isCorrectAnswer": false }
+      ],
+      "_id": 51
+    },
+    {
+      "question": "In what year was the United Nations (UN) founded?",
+      "answerOptions": [
+        { "option": 1, "answer": "1945", "isCorrectAnswer": true },
+        { "option": 2, "answer": "1919", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1956", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1961", "isCorrectAnswer": false }
+      ],
+      "_id": 52
+    },
+    {
+      "question": "Which city is called the “City of Winds”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Chicago", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Seattle", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Washington", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Veliky Novgorod", "isCorrectAnswer": false }
+      ],
+      "_id": 53
+    },
+    {
+      "question": "What animal is a symbol of peace and neutrality?",
+      "answerOptions": [
+        { "option": 1, "answer": "Polar bear", "isCorrectAnswer": false },
+        { "option": 2, "answer": "White tiger", "isCorrectAnswer": false },
+        { "option": 3, "answer": "White lion", "isCorrectAnswer": false },
+        { "option": 4, "answer": "White crane", "isCorrectAnswer": true }
+      ],
+      "_id": 54
+    },
+    {
+      "question": "What element is the main constituent of diamonds?",
+      "answerOptions": [
+        { "option": 1, "answer": "Carbon", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Silver", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Gold", "isCorrectAnswer": false }
+      ],
+      "_id": 55
+    },
+    {
+      "question": "In what year was Ferdinand Magellan's first successful circumnavigation of the world?",
+      "answerOptions": [
+        { "option": 1, "answer": "1492", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1520", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1588", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1620", "isCorrectAnswer": false }
+      ],
+      "_id": 56
+    },
+    {
+      "question": "Which river is the second longest in the world?",
+      "answerOptions": [
+        { "option": 1, "answer": "Amazon", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Yangtze", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Nile", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Mississippi", "isCorrectAnswer": false }
+      ],
+      "_id": 57
+    },
+    {
+      "question": "What year was the first man sent to space?",
+      "answerOptions": [
+        { "option": 1, "answer": "1957", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1961", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1969", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1975", "isCorrectAnswer": false }
+      ],
+      "_id": 58
+    },
+    {
+      "question": "Which sea is considered the most salty on Earth?",
+      "answerOptions": [
+        { "option": 1, "answer": "Red Sea", "isCorrectAnswer": false },
+        {
+          "option": 2,
+          "answer": "Mediterranean Sea",
+          "isCorrectAnswer": false
+        },
+        { "option": 3, "answer": "Dead Sea", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Black Sea", "isCorrectAnswer": false }
+      ],
+      "_id": 59
+    },
+    {
+      "question": "Which organ in the human body is responsible for the secretion of bile?",
+      "answerOptions": [
+        { "option": 1, "answer": "Liver", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Kidneys", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Spleen", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Stomach", "isCorrectAnswer": false }
+      ],
+      "_id": 60
+    },
+    {
+      "question": "Which planet in the solar system is known as the “Morning Star” or “Evening Star”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Mars", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Venus", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Mercury", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Jupiter", "isCorrectAnswer": false }
+      ],
+      "_id": 61
+    },
+    {
+      "question": "What chemical element is designated as “Cu”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Zinc", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Copper", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Cobalt", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Kurtz", "isCorrectAnswer": false }
+      ],
+      "_id": 62
+    },
+    {
+      "question": "In what year did the French Revolution take place?",
+      "answerOptions": [
+        { "option": 1, "answer": "1789", "isCorrectAnswer": true },
+        { "option": 2, "answer": "1812", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1905", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1793", "isCorrectAnswer": false }
+      ],
+      "_id": 63
+    },
+    {
+      "question": "What ocean is between Africa and Australia?",
+      "answerOptions": [
+        { "option": 1, "answer": "Pacific", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Indian", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Atlantic", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Arctic", "isCorrectAnswer": false }
+      ],
+      "_id": 64
+    },
+    {
+      "question": "Which chemical element makes up most of the atmosphere of Mars?",
+      "answerOptions": [
+        { "option": 1, "answer": "Carbon dioxide", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Nitrogen", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Hydrogen", "isCorrectAnswer": false }
+      ],
+      "_id": 65
+    },
+    {
+      "question": "What chemical element makes up most of the atmosphere of Titan?",
+      "answerOptions": [
+        { "option": 1, "answer": "Methane", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Carbon dioxide", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Hydrogen", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Oxygen", "isCorrectAnswer": false }
+      ],
+      "_id": 66
+    },
+    {
+      "question": "In what year did the discovery of Antarctica occur?",
+      "answerOptions": [
+        { "option": 1, "answer": "1500", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1778", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1820", "isCorrectAnswer": true },
+        { "option": 4, "answer": "1892", "isCorrectAnswer": false }
+      ],
+      "_id": 67
+    },
+    {
+      "question": "In what year was the International Red Cross and Red Guard Organization (Red Cross) founded?",
+      "answerOptions": [
+        { "option": 1, "answer": "1863", "isCorrectAnswer": true },
+        { "option": 2, "answer": "1901", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1945", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1980", "isCorrectAnswer": false }
+      ],
+      "_id": 68
+    },
+    {
+      "question": "What instrument is depicted in Leonardo da Vinci's famous painting “The Last Supper”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Tablets", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Lute", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Guitar", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Harp", "isCorrectAnswer": false }
+      ],
+      "_id": 69
+    },
+    {
+      "question": "In which country did the Chernobyl nuclear disaster take place?",
+      "answerOptions": [
+        { "option": 1, "answer": "Russia", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Ukraine", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Belarus", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Lithuania", "isCorrectAnswer": false }
+      ],
+      "_id": 70
+    },
+    {
+      "question": "What ocean lies between North America and Eurasia?",
+      "answerOptions": [
+        { "option": 1, "answer": "Quiet", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Atlantic", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Indian", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Arctic", "isCorrectAnswer": false }
+      ],
+      "_id": 71
+    },
+    {
+      "question": "In what year was the manga Karta signed?",
+      "answerOptions": [
+        { "option": 1, "answer": "1066", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1215", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1492", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1689", "isCorrectAnswer": false }
+      ],
+      "_id": 72
+    },
+    {
+      "question": "What chemical element is used to cool and freeze food?",
+      "answerOptions": [
+        { "option": 1, "answer": "Sodium", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Hydrogen", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Nitrogen", "isCorrectAnswer": true }
+      ],
+      "_id": 73
+    },
+    {
+      "question": "Which country is famous for its pyramids and the Sphinx?",
+      "answerOptions": [
+        { "option": 1, "answer": "India", "isCorrectAnswer": false },
+        { "option": 2, "answer": "China", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Mexico", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Egypt", "isCorrectAnswer": true }
+      ],
+      "_id": 74
+    },
+    {
+      "question": "What is the name of the science that studies the past of life on Earth?",
+      "answerOptions": [
+        { "option": 1, "answer": "Palaeontology", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Astronomy", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Anthropology", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Geology", "isCorrectAnswer": false }
+      ],
+      "_id": 75
+    },
+    {
+      "question": "What chemical element forms the basis of the haemoglobin molecule responsible for the transport of oxygen in the blood?",
+      "answerOptions": [
+        { "option": 1, "answer": "Nitrogen", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Iron", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Silver", "isCorrectAnswer": false }
+      ],
+      "_id": 76
+    },
+    {
+      "question": "In what year was the League of Nations founded?",
+      "answerOptions": [
+        { "option": 1, "answer": "1919", "isCorrectAnswer": true },
+        { "option": 2, "answer": "1923", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1939", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1945", "isCorrectAnswer": false }
+      ],
+      "_id": 77
+    },
+    {
+      "question": "Which planet in the solar system has the most diverse climate and atmosphere?",
+      "answerOptions": [
+        { "option": 1, "answer": "Mercury", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Earth", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Mars", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Venus", "isCorrectAnswer": false }
+      ],
+      "_id": 78
+    },
+    {
+      "question": "In what year did the Berlin Wall fall?",
+      "answerOptions": [
+        { "option": 1, "answer": "1961", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1989", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1991", "isCorrectAnswer": false },
+        { "option": 4, "answer": "2000", "isCorrectAnswer": false }
+      ],
+      "_id": 79
+    },
+    {
+      "question": "Which sea lies between Asia and Africa?",
+      "answerOptions": [
+        { "option": 1, "answer": "Caspian", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Red", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Mediterranean", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Dead", "isCorrectAnswer": false }
+      ],
+      "_id": 80
+    },
+    {
+      "question": "Which organ in the human body is responsible for secreting insulin?",
+      "answerOptions": [
+        { "option": 1, "answer": "Liver", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Kidneys", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Pancreas", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Stomach", "isCorrectAnswer": false }
+      ],
+      "_id": 81
+    },
+    {
+      "question": "What year did the Great Depression start?",
+      "answerOptions": [
+        { "option": 1, "answer": "1914", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1929", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1939", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1945", "isCorrectAnswer": false }
+      ],
+      "_id": 82
+    },
+    {
+      "question": "What chemical element is used in the manufacture of glass?",
+      "answerOptions": [
+        { "option": 1, "answer": "Silver", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Sodium", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Silicone", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Oxygen", "isCorrectAnswer": true }
+      ],
+      "_id": 83
+    },
+    {
+      "question": "Which instrument is depicted in Edvard Munch's famous painting “The Scream”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Flute", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Cello", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Clarinet", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Pictures", "isCorrectAnswer": false }
+      ],
+      "_id": 84
+    },
+    {
+      "question": "Which planet in the solar system is known as the “Planet of Love”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Venus", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Mars", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Earth", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Jupiter", "isCorrectAnswer": false }
+      ],
+      "_id": 85
+    },
+    {
+      "question": "What chemical element is the main component of carbon dioxide (CO2)?",
+      "answerOptions": [
+        { "option": 1, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Hydrogen", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Carbon", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Nitrogen", "isCorrectAnswer": false }
+      ],
+      "_id": 86
+    },
+    {
+      "question": "In what year was UNESCO (United Nations Educational, Scientific and Cultural Organization) founded?",
+      "answerOptions": [
+        { "option": 1, "answer": "1942", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1950", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1965", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1973", "isCorrectAnswer": false }
+      ],
+      "_id": 87
+    },
+    {
+      "question": "What chemical element is used in the production of steel products?",
+      "answerOptions": [
+        { "option": 1, "answer": "Copper", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Iron", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Tin", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Silver", "isCorrectAnswer": false }
+      ],
+      "_id": 88
+    },
+    {
+      "question": "What year was the Olympic Organization founded?",
+      "answerOptions": [
+        { "option": 1, "answer": "1886", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1896", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1900", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1912", "isCorrectAnswer": false }
+      ],
+      "_id": 89
+    },
+    {
+      "question": "What chemical element is the main component of human bones and teeth?",
+      "answerOptions": [
+        { "option": 1, "answer": "Calcium", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Iron", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Sodium", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Magnesium", "isCorrectAnswer": false }
+      ],
+      "_id": 90
+    },
+    {
+      "question": "Which organ in the human body is responsible for filtering blood and producing urine?",
+      "answerOptions": [
+        { "option": 1, "answer": "Heart", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Liver", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Kidneys", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Spleen", "isCorrectAnswer": false }
+      ],
+      "_id": 91
+    },
+    {
+      "question": "In what year was the first official Olympics held in modern times?",
+      "answerOptions": [
+        { "option": 1, "answer": "1892", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1900", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1924", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1936", "isCorrectAnswer": false }
+      ],
+      "_id": 92
+    },
+    {
+      "question": "Which planet in the solar system has the largest diameter?",
+      "answerOptions": [
+        { "option": 1, "answer": "Mercury", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Venus", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Earth", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Jupiter", "isCorrectAnswer": true }
+      ],
+      "_id": 93
+    },
+    {
+      "question": "What chemical element is used to fill balloons and airships?",
+      "answerOptions": [
+        { "option": 1, "answer": "Hydrogen", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Helium", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Neon", "isCorrectAnswer": false }
+      ],
+      "_id": 94
+    },
+    {
+      "question": "In what year did the Renaissance (Renaissance) begin?",
+      "answerOptions": [
+        { "option": 1, "answer": "1300", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1453", "isCorrectAnswer": false },
+        { "option": 3, "answer": "1500", "isCorrectAnswer": true },
+        { "option": 4, "answer": "1600", "isCorrectAnswer": false }
+      ],
+      "_id": 95
+    },
+    {
+      "question": "What chemical element is used in the manufacture of batteries?",
+      "answerOptions": [
+        { "option": 1, "answer": "Lead", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Copper", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Aluminum", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Lithium", "isCorrectAnswer": true }
+      ],
+      "_id": 96
+    },
+    {
+      "question": "What type of radiation allows X-ray examinations?",
+      "answerOptions": [
+        { "option": 1, "answer": "Ultrasound", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Radioactivity", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Infrared", "isCorrectAnswer": false },
+        { "option": 4, "answer": "X-ray", "isCorrectAnswer": true }
+      ],
+      "_id": 97
+    },
+    {
+      "question": "What chemical element is used to create rainbows in televisions and computer monitors?",
+      "answerOptions": [
+        { "option": 1, "answer": "Helium", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Oxygen", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Hydrogen", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Neon", "isCorrectAnswer": true }
+      ],
+      "_id": 98
+    },
+    {
+      "question": "Which planet in the solar system is known as the “Blue Planet”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Venus", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Earth", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Uranus", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Neptune", "isCorrectAnswer": false }
+      ],
+      "_id": 99
+    },
+    {
+      "question": "In what year did the first man land on the moon?",
+      "answerOptions": [
+        { "option": 1, "answer": "1961", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1969", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1975", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1983", "isCorrectAnswer": false }
+      ],
+      "_id": 100
+    },
+    {
+      "question": "Which actor portrayed James Bond in a record seven movies?",
+      "answerOptions": [
+        { "option": 1, "answer": "Bradd Pitt", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Daniel Craig", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Pierce Brosnan", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Roger Moore", "isCorrectAnswer": true }
+      ],
+      "_id": 101
+    },
+    {
+      "question": "Filaria is caused by",
+      "answerOptions": [
+        { "option": 1, "answer": "Bacteria", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Mosquito", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Protozoa", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Virus", "isCorrectAnswer": false }
+      ],
+      "_id": 102
+    },
+    {
+      "question": "Fathometer is used to measure",
+      "answerOptions": [
+        { "option": 1, "answer": "Earthquakes", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Rainfall", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Ocean depth", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Sound intensity", "isCorrectAnswer": false }
+      ],
+      "_id": 103
+    },
+    {
+      "question": "In which year, did terrorists crash two planes into New York's World Trade Centre?",
+      "answerOptions": [
+        { "option": 1, "answer": "2000", "isCorrectAnswer": false },
+        { "option": 2, "answer": "2001", "isCorrectAnswer": true },
+        { "option": 3, "answer": "2002", "isCorrectAnswer": false },
+        { "option": 4, "answer": "2003", "isCorrectAnswer": false }
+      ],
+      "_id": 104
+    },
+    {
+      "question": "In an adult human body, the total number of red blood cells is",
+      "answerOptions": [
+        { "option": 1, "answer": "15 trillion", "isCorrectAnswer": false },
+        { "option": 2, "answer": "20 trillion", "isCorrectAnswer": false },
+        { "option": 3, "answer": "25 trillion", "isCorrectAnswer": false },
+        { "option": 4, "answer": "30 trillion", "isCorrectAnswer": true }
+      ],
+      "_id": 105
+    },
+    {
+      "question": "In which season do we need more fat?",
+      "answerOptions": [
+        { "option": 1, "answer": "Autumn", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Spring", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Winter", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Summer", "isCorrectAnswer": false }
+      ],
+      "_id": 106
+    },
+    {
+      "question": "How many teeth does an adult dog have?",
+      "answerOptions": [
+        { "option": 1, "answer": "32", "isCorrectAnswer": false },
+        { "option": 2, "answer": "34", "isCorrectAnswer": false },
+        { "option": 3, "answer": "38", "isCorrectAnswer": false },
+        { "option": 4, "answer": "42", "isCorrectAnswer": true }
+      ],
+      "_id": 107
+    },
+    {
+      "question": "How many times has Brazil won the World Cup?",
+      "answerOptions": [
+        { "option": 1, "answer": "4", "isCorrectAnswer": false },
+        { "option": 2, "answer": "2", "isCorrectAnswer": false },
+        { "option": 3, "answer": "5", "isCorrectAnswer": true },
+        { "option": 4, "answer": "1", "isCorrectAnswer": false }
+      ],
+      "_id": 108
+    },
+    {
+      "question": "How many players are there on each side of the Basketball game?",
+      "answerOptions": [
+        { "option": 1, "answer": "4", "isCorrectAnswer": false },
+        { "option": 2, "answer": "5", "isCorrectAnswer": true },
+        { "option": 3, "answer": "6", "isCorrectAnswer": false },
+        { "option": 4, "answer": "7", "isCorrectAnswer": false }
+      ],
+      "_id": 109
+    },
+    {
+      "question": "Hundred year war was between",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "France and England",
+          "isCorrectAnswer": true
+        },
+        {
+          "option": 2,
+          "answer": "Greek and Persian forces",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 3,
+          "answer": "Civil War in England",
+          "isCorrectAnswer": false
+        },
+        { "option": 4, "answer": "None of the above", "isCorrectAnswer": false }
+      ],
+      "_id": 110
+    },
+    {
+      "question": "Which animal is known to be the ‘Ship of the Desert'?",
+      "answerOptions": [
+        { "option": 1, "answer": "Dog", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Camel", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Cat", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Snake", "isCorrectAnswer": false }
+      ],
+      "_id": 111
+    },
+    {
+      "question": "Who was the first person to walk on the moon?",
+      "answerOptions": [
+        { "option": 1, "answer": "Yuri Gagarin", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Neil Armstrong", "isCorrectAnswer": true },
+        { "option": 3, "answer": "John Glenn", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Buzz Aldrin", "isCorrectAnswer": false }
+      ],
+      "_id": 112
+    },
+    {
+      "question": "Which country was divided into two parts by the Wall?",
+      "answerOptions": [
+        { "option": 1, "answer": "France", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Germany", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Austria", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Poland", "isCorrectAnswer": false }
+      ],
+      "_id": 113
+    },
+    {
+      "question": "Which city is the capital of Italy?",
+      "answerOptions": [
+        { "option": 1, "answer": "Venice", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Florence", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Rome", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Milan", "isCorrectAnswer": false }
+      ],
+      "_id": 114
+    },
+    {
+      "question": "Which of these buildings is in India?",
+      "answerOptions": [
+        { "option": 1, "answer": "Eiffel Tower", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Colosseum", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Taj Mahal", "isCorrectAnswer": true },
+        {
+          "option": 4,
+          "answer": "Great Wall of China",
+          "isCorrectAnswer": false
+        }
+      ],
+      "_id": 115
+    },
+    {
+      "question": "In which country was the famous composer Wolfgang Amadeus Mozart born?",
+      "answerOptions": [
+        { "option": 1, "answer": "Germany", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Austria", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Czech Republic", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Italy", "isCorrectAnswer": false }
+      ],
+      "_id": 116
+    },
+    {
+      "question": "Which of the following inventions is attributed to Thomas Edison?",
+      "answerOptions": [
+        { "option": 1, "answer": "Bulb", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Telephone", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Computer", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Rocket", "isCorrectAnswer": false }
+      ],
+      "_id": 117
+    },
+    {
+      "question": "Which animal is a symbol of courage and bravery in Chinese culture?",
+      "answerOptions": [
+        { "option": 1, "answer": "Leo", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Dragon", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Eagle", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Bear", "isCorrectAnswer": false }
+      ],
+      "_id": 118
+    },
+    {
+      "question": "Who invented the telegraph?",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "Alexander Graham Bell",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 2,
+          "answer": "Guglielmo Marconi",
+          "isCorrectAnswer": false
+        },
+        { "option": 3, "answer": "Thomas Edison", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Samuel Morse", "isCorrectAnswer": true }
+      ],
+      "_id": 119
+    },
+    {
+      "question": "What animal is the symbol of China?",
+      "answerOptions": [
+        { "option": 1, "answer": "Panda", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Elephant", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Tiger", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Leo", "isCorrectAnswer": false }
+      ],
+      "_id": 120
+    },
+    {
+      "question": "Which of these cities is located in Egypt?",
+      "answerOptions": [
+        { "option": 1, "answer": "Athens", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Cairo", "isCorrectAnswer": true },
+        { "option": 3, "answer": "Baghdad", "isCorrectAnswer": false },
+        { "option": 4, "answer": "London", "isCorrectAnswer": false }
+      ],
+      "_id": 121
+    },
+    {
+      "question": "Which vitamin is often referred to as the “sunshine vitamin”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Vitamin A", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Vitamin B", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Vitamin C", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Vitamin D", "isCorrectAnswer": true }
+      ],
+      "_id": 122
+    },
+    {
+      "question": "What event led to the start of World War II?",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "The fall of the Berlin Wall",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 2,
+          "answer": "Attack on Pearl Harbor",
+          "isCorrectAnswer": true
+        },
+        {
+          "option": 3,
+          "answer": "The signing of the Treaty of Versailles",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 4,
+          "answer": "The capture of Crimea by Germany",
+          "isCorrectAnswer": false
+        }
+      ],
+      "_id": 123
+    },
+    {
+      "question": "What is the name of the longest river in Russia?",
+      "answerOptions": [
+        { "option": 1, "answer": "Volga", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Lena", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Neva", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Amur", "isCorrectAnswer": false }
+      ],
+      "_id": 124
+    },
+    {
+      "question": "Who was the first President of the USA?",
+      "answerOptions": [
+        { "option": 1, "answer": "George Washington", "isCorrectAnswer": true },
+        { "option": 2, "answer": "John Adams", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Thomas Jefferson", "isCorrectAnswer": false },
+        { "option": 4, "answer": "James Madison", "isCorrectAnswer": false }
+      ],
+      "_id": 125
+    },
+    {
+      "question": "Who is the founder of the modern theory of evolution?",
+      "answerOptions": [
+        { "option": 1, "answer": "Charles Darwin", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Isaac Newton", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Albert Einstein", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Marie Curie", "isCorrectAnswer": false }
+      ],
+      "_id": 126
+    },
+    {
+      "question": "Which country is considered the birthplace of the Olympic Games?",
+      "answerOptions": [
+        { "option": 1, "answer": "Greece", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Rome", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Egypt", "isCorrectAnswer": false },
+        { "option": 4, "answer": "China", "isCorrectAnswer": false }
+      ],
+      "_id": 127
+    },
+    {
+      "question": "Who wrote the play “Romeo and Juliet”?",
+      "answerOptions": [
+        {
+          "option": 1,
+          "answer": "William Shakespeare",
+          "isCorrectAnswer": true
+        },
+        {
+          "option": 2,
+          "answer": "Alexander Pushkin",
+          "isCorrectAnswer": false
+        },
+        {
+          "option": 3,
+          "answer": "Fyodor Dostoyevsky",
+          "isCorrectAnswer": false
+        },
+        { "option": 4, "answer": "Victor Hugo", "isCorrectAnswer": false }
+      ],
+      "_id": 128
+    },
+    {
+      "question": "Which of these animals cannot jump?",
+      "answerOptions": [
+        { "option": 1, "answer": "Cat", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Horse", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Snake", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Kangaroo", "isCorrectAnswer": false }
+      ],
+      "_id": 129
+    },
+    {
+      "question": "Which canal connects the Red and Mediterranean seas?",
+      "answerOptions": [
+        { "option": 1, "answer": "Suez Canal", "isCorrectAnswer": true },
+        { "option": 2, "answer": "Panama Canal", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Gotthard Tunnel", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Bosphorus Strait", "isCorrectAnswer": false }
+      ],
+      "_id": 130
+    },
+    {
+      "question": "What year did the Titanic sink in the Atlantic Ocean?",
+      "answerOptions": [
+        { "option": 1, "answer": "1913", "isCorrectAnswer": false },
+        { "option": 2, "answer": "1912", "isCorrectAnswer": true },
+        { "option": 3, "answer": "1812", "isCorrectAnswer": false },
+        { "option": 4, "answer": "1920", "isCorrectAnswer": false }
+      ],
+      "_id": 131
+    },
+    {
+      "question": "What social network used “stories” first?",
+      "answerOptions": [
+        { "option": 1, "answer": "VKontakte", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Facebook", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Instagram", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Twitter", "isCorrectAnswer": false }
+      ],
+      "_id": 132
+    },
+    {
+      "question": "What game became popular due to the principle of “catch Pokemon in the real world”?",
+      "answerOptions": [
+        { "option": 1, "answer": "Mario Kart Tour", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Clash of Clans", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Pokemon GO", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Candy Crush Saga", "isCorrectAnswer": false }
+      ],
+      "_id": 133
+    },
+    {
+      "question": "What device is used to view content in virtual reality?",
+      "answerOptions": [
+        { "option": 1, "answer": "Smartphone", "isCorrectAnswer": false },
+        { "option": 2, "answer": "3D glasses", "isCorrectAnswer": false },
+        { "option": 3, "answer": "VR Headset", "isCorrectAnswer": true },
+        { "option": 4, "answer": "Tablet", "isCorrectAnswer": false }
+      ],
+      "_id": 134
+    },
+    {
+      "question": "Which month is the shortest on the calendar?",
+      "answerOptions": [
+        { "option": 1, "answer": "January", "isCorrectAnswer": true },
+        { "option": 2, "answer": "February", "isCorrectAnswer": false },
+        { "option": 3, "answer": "March", "isCorrectAnswer": false },
+        { "option": 4, "answer": "December", "isCorrectAnswer": false }
+      ],
+      "_id": 135
+    },
+    {
+      "question": "Which city is the capital of Russia?",
+      "answerOptions": [
+        { "option": 1, "answer": "St. Petersburg", "isCorrectAnswer": false },
+        { "option": 2, "answer": "Kazan", "isCorrectAnswer": false },
+        { "option": 3, "answer": "Sochi", "isCorrectAnswer": false },
+        { "option": 4, "answer": "Moscow", "isCorrectAnswer": true }
+      ],
+      "_id": 136
     }
-    ]
+  ]
 }
-
-
