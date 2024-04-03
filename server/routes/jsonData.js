@@ -19,7 +19,7 @@ jsonDataRouter.get('/category/:name',getCategoryWiseData)
 jsonDataRouter.delete('/:id', deleteQuizSet)
 jsonDataRouter.get('/:id',getQuizQuetionsById);
 jsonDataRouter.get('/',getAllQuiz)
-jsonDataRouter.get('/questions/quiz')
+jsonDataRouter.get('/questions/quiz',getTwoRandomQuestions)
 module.exports = {
     jsonDataRouter
 }
