@@ -55,19 +55,23 @@ const updateQuizSet = (req, res) => {
 
   const newData = req.body;
   console.log(newData,'newdata&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
-  // allData.data.contest = allData.data.contest.map((ele) => {
-  //  return ele.id == id ? ele = newData:ele
+  allData.data.contest = allData.data.contest.map((ele) => {
+   return ele.id == id ? ele = newData:ele
     
-  // });
+  });
   
   fs.writeFile("D:/Rita/Atme_Quiz/server/data/data.json", JSON.stringify(allData), (err) => {
     if (err) {
+      console.log(err,'error###################')
       res.status(500).json({message :"Error writing to file",err});
     } else {
       res.status(200).json({message : "Data updated successfully",newData});
     }
   });
 };
+
+module.exports = updateQuizSet;
+
 
 const deleteQuizSet = (req, res) => {
   const id = req.params.id;
