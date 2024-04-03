@@ -53,7 +53,7 @@ app.use("/auth", authRoute);
 app.get("/", (req, res) => {
   res.json("api running currently is Atme_quiz");
 });
-app.use('/',authentication)
+// app.use('/',authentication)
 // app.use("/api/contest",categoryRouter);
 app.use('/api/contests',jsonDataRouter);
 
