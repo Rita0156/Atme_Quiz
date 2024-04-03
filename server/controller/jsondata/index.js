@@ -32,7 +32,7 @@ const getCategoryWiseData = (req, res) => {
         return true;
       } else return false;
     });
-
+    res.setHeader('X-Total-Count', cricketData.length);
     res.json(cricketData);
   }
 };
