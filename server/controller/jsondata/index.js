@@ -54,17 +54,17 @@ const updateQuizSet = (req, res) => {
   const id = req.params.id;
 
   const newData = req.body;
- 
-  allData.data.contest = allData.data.contest.map((ele) => {
-   return ele.id == id ? ele = newData:ele
+  console.log(newData,'newdata&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+  // allData.data.contest = allData.data.contest.map((ele) => {
+  //  return ele.id == id ? ele = newData:ele
     
-  });
+  // });
   
-  fs.writeFile("D:/Rita/Atme_Quiz/server/data/data.json", JSON.stringify(allData), (err) => {
+  fs.writeFile("D:/Rita/Atme_Quiz/server/data/data.json", (allData), (err) => {
     if (err) {
-      res.status(500).send("Error writing to file");
+      res.status(500).json({message :"Error writing to file",err});
     } else {
-      res.status(200).send("Data updated successfully");
+      res.status(200).json({message : "Data updated successfully",newData});
     }
   });
 };
