@@ -31,10 +31,12 @@ router.get("/google", passport.authenticate("google", ["profile", "email"]));
 
 router.get(
 	"/google/callback",
-	passport.authenticate("google", {
-		successRedirect: process.env.CLIENT_URL,
-		failureRedirect: "/login/failed",
-	})
+	passport.authenticate('google'),
+	(req, res) => {
+	  const redirect = req.session.oauth2return || '/';
+	  delete req.session.oauth2return;
+	  res.redirect(redirect);
+	}
 );
 
 router.get("/logout", (req, res) => {
