@@ -60,7 +60,7 @@ const updateQuizSet = (req, res) => {
     
   // });
   
-  fs.writeFile("D:/Rita/Atme_Quiz/server/data/data.json", (allData), (err) => {
+  fs.writeFile("D:/Rita/Atme_Quiz/server/data/data.json", JSON.stringify(allData), (err) => {
     if (err) {
       res.status(500).json({message :"Error writing to file",err});
     } else {
