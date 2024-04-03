@@ -24,7 +24,7 @@ const getCategoryWiseData = (req, res) => {
       }
       return false;
     });
-
+    res.setHeader('X-Total-Count', filteredArray.length);
     res.status(200).json(filteredArray);
   } else {
     var cricketData = allData.data.contest.filter((ele) => {
@@ -69,8 +69,6 @@ const updateQuizSet = (req, res) => {
     }
   });
 };
-
-module.exports = updateQuizSet;
 
 
 const deleteQuizSet = (req, res) => {
