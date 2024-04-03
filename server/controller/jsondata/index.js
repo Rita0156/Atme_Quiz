@@ -7,7 +7,7 @@ const { generateJSONData } = require("../../utils/autogenerateId");
 
 const getQuizQuetionsById = (req, res) => {
   const id = req.params;
-  var cricketData = allData.data.contest.find((ele) => ele._id == id.id);
+  var cricketData = allData.data.contest.find((ele) => ele.id == id.id);
   res.json(cricketData);
 };
 
@@ -39,7 +39,7 @@ const getCategoryWiseData = (req, res) => {
 
 const createQuiz = (req, res) => {
   const newData = req.body;
-  newData._id = generateJSONData(10)
+  newData.id = generateJSONData(10)
   allData.data.contest.push(newData);
   fs.writeFile("D:/Rita/Atme_Quiz/server/data/data.json", JSON.stringify(allData), (err) => {
     if (err) {
@@ -56,7 +56,7 @@ const updateQuizSet = (req, res) => {
   const newData = req.body;
  
   allData.data.contest = allData.data.contest.map((ele) => {
-   return ele._id == id ? ele = newData:ele
+   return ele.id == id ? ele = newData:ele
     
   });
   
@@ -102,33 +102,6 @@ const getTwoRandomQuestions = (req,res) => {
   res.status(200).json(indexArray)
 
 }
-
-function updateImageUrl(){
-    allData.data.contest = allData.data.contest.map((ele)=>{
-      if(ele.name == 'BANK PO EXAM'){
-        ele.quizImage = 'https://play309.atmequiz.com/_next/image?url=https%3A%2F%2Fstatic.atmequiz.com%2Fthumbs%2Fbank-po-exams.png&w=48&q=75'
-        return ele
-      }
-       return ele
-    })
-
-    fs.writeFile("D:/Rita/Atme_Quiz/server/data/data.json", JSON.stringify(allData), (err) => {
-      if (err) {
-       console.log(err,'update error image url')
-      } else {
-       console.log(allData.data.contest,'>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
-      }
-    });
-
-}
-
-
-const updateImageurlByCategory = (req,res) => {
-     const name = req.params.name
-     
-}
-
-
 
 module.exports = {
     deleteQuizSet,
