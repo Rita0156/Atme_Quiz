@@ -55,6 +55,12 @@ app.get("/", (req, res) => {
 });
 // app.use('/',authentication)
 // app.use("/api/contest",categoryRouter);
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Expose-Headers', 'X-Total-Count');
+  next();
+});
+
 app.use('/api/contests',jsonDataRouter);
 
 app.listen(PORT, async () => {

@@ -5,7 +5,9 @@ import styles from "./styles.module.css";
 function Signup() {
 	const googleAuth = () => {
 		window.open(
-			`http://localhost:7000/auth/google/callback`,
+			`https://atme-quiz.onrender.com/auth/google/callback`
+
+			,
 			"_self"
 		);
 	};

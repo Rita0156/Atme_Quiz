@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 function Home(userDetails) {
 	const user = userDetails.user;
 	const logout = () => {
-		window.open(`http://localhost:7000/auth/logout`, "_self");
+		window.open(`https://atme-quiz.onrender.com/auth/logout`, "_self");
 	};
 	return (
 		<div className={styles.container}>

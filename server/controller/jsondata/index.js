@@ -82,6 +82,7 @@ const deleteQuizSet = (req, res) => {
 };
 
 const getAllQuiz = (req,res) => {
+  res.setHeader('X-Total-Count', allData.data.contest.length);
     res.status(200).json(allData.data.contest)
 }
 
