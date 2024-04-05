@@ -45,14 +45,17 @@ const createQuiz = (req, res) => {
   const newData = req.body;
   newData.id = generateJSONData(10);
   var image = "";
+  var url = ''
   for (let i = 0; i < allData.data.contest.length; i++) {
     if (newData.name == allData.data.contest[i].name) {
       image = allData.data.contest[i].quizId;
+      url = allData.data.contest[i].quizImage
       break;
     }
   }
   if (image != "") {
     newData.quizId = image;
+    newData.quizImage = url
   } else {
     newData.quizId = generateJSONData(10);
   }
