@@ -3,7 +3,7 @@ var withoutLogin = require("../../data/first2question.json");
 const path = require('path')
 // const cricket = require('../../images/cricket.webp');
 // console.log(cricket,'image url')
-const pathJson = process.env.FILE_PATH
+const pathJson = path.join(process.env.FILE_PATH)
 // const filePath = path.join(__dirname, 'data', 'data.json');
 // console.log(pathJson,'file namr form json')
 const fs = require("fs");

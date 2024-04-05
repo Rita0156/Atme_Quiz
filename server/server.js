@@ -11,7 +11,7 @@ const cookieSession = require("cookie-session");
 // const {authentication} = require('./middleware/index')
 const path = require('path');
 const filePath = path.join(__dirname, 'data', 'data.json');
-console.log(filePath,'file namr');
+// console.log(filePath,'file namr');
 require("dotenv").config();
 const PORT = process.env.PORT || 7500;
 
