@@ -1,7 +1,11 @@
 var allData = require("../../data/data.json");
 var withoutLogin = require("../../data/first2question.json");
+const path = require('path')
 // const cricket = require('../../images/cricket.webp');
 // console.log(cricket,'image url')
+const pathJson = process.env.FILE_PATH
+// const filePath = path.join(__dirname, 'data', 'data.json');
+// console.log(pathJson,'file namr form json')
 const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
 
@@ -54,7 +58,7 @@ const createQuiz = (req, res) => {
   }
   allData.data.contest.push(newData);
   fs.writeFile(
-    "D:/Rita/Atme_Quiz/server/data/data.json",
+    pathJson,
     JSON.stringify(allData),
     (err) => {
       if (err) {
@@ -79,11 +83,11 @@ const updateQuizSet = (req, res) => {
   });
 
   fs.writeFile(
-    "D:/Rita/Atme_Quiz/server/data/data.json",
+    pathJson,
     JSON.stringify(allData),
     (err) => {
       if (err) {
-        console.log(err, "error###################");
+        
         res.status(500).json({ message: "Error writing to file", err });
       } else {
         res.status(200).json({ message: "Data updated successfully", newData });
@@ -94,9 +98,11 @@ const updateQuizSet = (req, res) => {
 
 const deleteQuizSet = (req, res) => {
   const id = req.params.id;
+
   allData.data.contest.splice(id, 1);
+
   fs.writeFile(
-    "D:/Rita/Atme_Quiz/server/data/data.json",
+    pathJson,
     JSON.stringify(allData),
     (err) => {
       if (err) {

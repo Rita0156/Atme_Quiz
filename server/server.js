@@ -2,13 +2,16 @@
 const express = require("express");
 const cors = require("cors");
 const { connectionDb } = require("./config/db");
-const { categoryRouter } = require('./routes/index')
+// const { categoryRouter } = require('./routes/index')
 const { jsonDataRouter } = require('./routes/jsonData')
-const passportStrategy = require('./googleAuth/passport')
+// const passportStrategy = require('./googleAuth/passport')
 const authRoute = require('./controller/google/index')
 const passport =require('passport');
 const cookieSession = require("cookie-session");
-const {authentication} = require('./middleware/index')
+// const {authentication} = require('./middleware/index')
+const path = require('path');
+const filePath = path.join(__dirname, 'data', 'data.json');
+console.log(filePath,'file namr');
 require("dotenv").config();
 const PORT = process.env.PORT || 7500;
 
