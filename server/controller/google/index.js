@@ -32,7 +32,7 @@ router.get(
 	"/google/callback",
 	passport.authenticate('google'),
 	(req, res) => {
-	  const redirect = req.session.oauth2return ;
+	  const redirect = req.session.oauth2return|| 'http://localhost:3000/home' ;
 	  delete req.session.oauth2return;
 	  res.redirect(redirect);
 	}
@@ -48,4 +48,4 @@ router.get("/logout", (req, res) => {
 
 module.exports = router;
 
-// || 'http://localhost:3000/home' // 
+// || '|| 'http://localhost:3000/home'/home' // 
