@@ -33,7 +33,7 @@ router.get(
 	"/google/callback",
 	passport.authenticate('google'),
 	(req, res) => {
-	  const redirect = req.session.oauth2return || 'http://localhost:3000';
+	  const redirect = req.session.oauth2return || 'http://localhost:3000/home';
 	  delete req.session.oauth2return;
 	  res.redirect(redirect);
 	}
