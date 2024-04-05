@@ -49923,774 +49923,6 @@
       },
 
       {
-        "id": "6605076057da7d5aabe2f4f5",
-        "quizId": "62cbdb8848e29528cc9e681d",
-        "name": "BIRDS AND ANIMALS",
-        "quizImage": "https://play309.atmequiz.com/_next/image?url=https%3A%2F%2Fstatic.atmequiz.com%2Fthumbs%2Fbirls-and-animals.png&w=48&q=75",
-        "prizeId": "62cbcbfb7e6e64183f02e135",
-        "slug": "birds-and-animals",
-        "entryCoins": 10,
-        "winningCoins": 30000,
-        "startTime": "2024-03-28T07:30:00.000Z",
-        "endTime": "2024-03-28T13:30:00.000Z",
-        "questionSet": {
-          "_id": "62cbdca248e29528cca0c695",
-          "questionSet": [
-            {
-              "question": "There are how many kinds of cat species in india?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "10",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea821"
-                },
-                {
-                  "option": 2,
-                  "answer": "15",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea822"
-                },
-                {
-                  "option": 3,
-                  "answer": "20",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea823"
-                },
-                {
-                  "option": 4,
-                  "answer": "25",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea824"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea244"
-            },
-            {
-              "question": "Which of the following has no skeleton at all?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Jelly fish",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea826"
-                },
-                {
-                  "option": 2,
-                  "answer": "Silver fish",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea827"
-                },
-                {
-                  "option": 3,
-                  "answer": "Sponge",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea828"
-                },
-                {
-                  "option": 4,
-                  "answer": "Star fish",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea829"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea245"
-            },
-            {
-              "question": "Which animal can create the loudest sound among any living creature?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Whale shark",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea82b"
-                },
-                {
-                  "option": 2,
-                  "answer": "Humpback whales",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea82c"
-                },
-                {
-                  "option": 3,
-                  "answer": "Gibbon",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea82d"
-                },
-                {
-                  "option": 4,
-                  "answer": "Howler monkey",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea82e"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea246"
-            },
-            {
-              "question": "Which one of the following is not a true fish?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Hammer fish",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea830"
-                },
-                {
-                  "option": 2,
-                  "answer": "Sucker fish",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea831"
-                },
-                {
-                  "option": 3,
-                  "answer": "Saw fish",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea832"
-                },
-                {
-                  "option": 4,
-                  "answer": "Silver fish",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea833"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea247"
-            },
-            {
-              "question": "Name the bird that migrates from the north pole to the south pole and back?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Arctic tern",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea835"
-                },
-                {
-                  "option": 2,
-                  "answer": "Swallow",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea836"
-                },
-                {
-                  "option": 3,
-                  "answer": "Crane",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea837"
-                },
-                {
-                  "option": 4,
-                  "answer": "Penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea838"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea248"
-            },
-            {
-              "question": "In which of the following kinds of organism is the phenomenon found wherein the female kills the male after copulation",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Pit viper",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea83a"
-                },
-                {
-                  "option": 2,
-                  "answer": "Honeybee",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea83b"
-                },
-                {
-                  "option": 3,
-                  "answer": "Spider",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea83c"
-                },
-                {
-                  "option": 4,
-                  "answer": "Dragonfly",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea83d"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea249"
-            },
-            {
-              "question": "Pashmina shawl is made from the hair of?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Rabbit",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea83f"
-                },
-                {
-                  "option": 2,
-                  "answer": "Goat",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea840"
-                },
-                {
-                  "option": 3,
-                  "answer": "Sheep",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea841"
-                },
-                {
-                  "option": 4,
-                  "answer": "Yak",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea842"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea24a"
-            },
-            {
-              "question": "Which animal exclusively eat only eucalyptus leaves and nothing else?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Common wombat",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea844"
-                },
-                {
-                  "option": 2,
-                  "answer": "Greater glider",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea845"
-                },
-                {
-                  "option": 3,
-                  "answer": "Koala",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea846"
-                },
-                {
-                  "option": 4,
-                  "answer": "Kangaroo",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea847"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea24b"
-            },
-            {
-              "question": "In which of the following animals is respiration done by skin?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Frog",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea849"
-                },
-                {
-                  "option": 2,
-                  "answer": "Chemeleon",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea84a"
-                },
-                {
-                  "option": 3,
-                  "answer": "Sea horse",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea84b"
-                },
-                {
-                  "option": 4,
-                  "answer": "Flying fish",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea84c"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea24c"
-            },
-            {
-              "question": "Which of the following is the national aquatic animal of india?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Dugong",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea84e"
-                },
-                {
-                  "option": 2,
-                  "answer": "Dolphin",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea84f"
-                },
-                {
-                  "option": 3,
-                  "answer": "Sea turtle",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea850"
-                },
-                {
-                  "option": 4,
-                  "answer": "Salt water crocodile",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea851"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea24d"
-            },
-            {
-              "question": "In which of the following groups animals bear no teeth?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Peacock, ostrich and tortoise",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea853"
-                },
-                {
-                  "option": 2,
-                  "answer": "Turtle, kiwi and cow",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea854"
-                },
-                {
-                  "option": 3,
-                  "answer": "Owl, loris and crow",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea855"
-                },
-                {
-                  "option": 4,
-                  "answer": "Alligator, turtle and tortoise",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea856"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea24e"
-            },
-            {
-              "question": "Which of the following body parts do not exist in birds?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Spines",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea858"
-                },
-                {
-                  "option": 2,
-                  "answer": "Toes",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea859"
-                },
-                {
-                  "option": 3,
-                  "answer": "Teeth",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea85a"
-                },
-                {
-                  "option": 4,
-                  "answer": "Tounge",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea85b"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea24f"
-            },
-            {
-              "question": "What do we call a baby swan?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "A joey",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea85d"
-                },
-                {
-                  "option": 2,
-                  "answer": "A calf",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea85e"
-                },
-                {
-                  "option": 3,
-                  "answer": "A cygnet",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea85f"
-                },
-                {
-                  "option": 4,
-                  "answer": "A kitten",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea860"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea250"
-            },
-            {
-              "question": "Which is the largest type of penguin?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "King penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea862"
-                },
-                {
-                  "option": 2,
-                  "answer": "Queen penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea863"
-                },
-                {
-                  "option": 3,
-                  "answer": "Emperor penguin",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea864"
-                },
-                {
-                  "option": 4,
-                  "answer": "Baby penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea865"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea251"
-            },
-            {
-              "question": "Which of the following birds is characterised by a big yellow bill?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Toucan",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea867"
-                },
-                {
-                  "option": 2,
-                  "answer": "Puffin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea868"
-                },
-                {
-                  "option": 3,
-                  "answer": "Ibis",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea869"
-                },
-                {
-                  "option": 4,
-                  "answer": "Penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea86a"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea252"
-            },
-            {
-              "question": "Which of the following birds lays the biggest eggs, which can weigh up to 1.9 Kilograms?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Emu",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea86c"
-                },
-                {
-                  "option": 2,
-                  "answer": "Ostrich",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea86d"
-                },
-                {
-                  "option": 3,
-                  "answer": "Song thrush",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea86e"
-                },
-                {
-                  "option": 4,
-                  "answer": "Penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea86f"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea253"
-            },
-            {
-              "question": "What is a group of ravens called?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "A spook",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea871"
-                },
-                {
-                  "option": 2,
-                  "answer": "A school",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea872"
-                },
-                {
-                  "option": 3,
-                  "answer": "A murder",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea873"
-                },
-                {
-                  "option": 4,
-                  "answer": "A folk",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea874"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea254"
-            },
-            {
-              "question": "According to an old law, who owns all swans in the united kingdom?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "The prime minister",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea876"
-                },
-                {
-                  "option": 2,
-                  "answer": "The queen",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea877"
-                },
-                {
-                  "option": 3,
-                  "answer": "The leader of the church of england",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea878"
-                },
-                {
-                  "option": 4,
-                  "answer": "The soldiers",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea879"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea255"
-            },
-            {
-              "question": "Flamingos are born with grey feathers, which gradually turn into which colour?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Blue",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea87b"
-                },
-                {
-                  "option": 2,
-                  "answer": "Pink",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea87c"
-                },
-                {
-                  "option": 3,
-                  "answer": "White",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea87d"
-                },
-                {
-                  "option": 4,
-                  "answer": "Black",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea87e"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea256"
-            },
-            {
-              "question": "Which is the lightest bird species in the world, which only weighs 1.6 Grams?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Bee hummingbird",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea880"
-                },
-                {
-                  "option": 2,
-                  "answer": "Pygmy owl",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea881"
-                },
-                {
-                  "option": 3,
-                  "answer": "Woodpecker",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea882"
-                },
-                {
-                  "option": 4,
-                  "answer": "Penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea883"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea257"
-            },
-            {
-              "question": "Approximately how many species of birds are there in the world?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Around 1,000 species",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea885"
-                },
-                {
-                  "option": 2,
-                  "answer": "Around 10,000 species",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea886"
-                },
-                {
-                  "option": 3,
-                  "answer": "Around 100,000 species",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea887"
-                },
-                {
-                  "option": 4,
-                  "answer": "Around 1000 species",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea888"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea258"
-            },
-            {
-              "question": "The united states of america chose which species of eagle as its emblem?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Bald eagle",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea88a"
-                },
-                {
-                  "option": 2,
-                  "answer": "Sea eagle",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea88b"
-                },
-                {
-                  "option": 3,
-                  "answer": "Snake eagle",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea88c"
-                },
-                {
-                  "option": 4,
-                  "answer": "Sky eagle",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea88d"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea259"
-            },
-            {
-              "question": "Which species of bird has a throat pouch to catch fish?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Heron",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea88f"
-                },
-                {
-                  "option": 2,
-                  "answer": "Kingfisher",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea890"
-                },
-                {
-                  "option": 3,
-                  "answer": "Pelican",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea891"
-                },
-                {
-                  "option": 4,
-                  "answer": "Penguin",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea892"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea25a"
-            },
-            {
-              "question": "Which of the following species is not a prey bird?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "Osprey",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea894"
-                },
-                {
-                  "option": 2,
-                  "answer": "Parrot",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea895"
-                },
-                {
-                  "option": 3,
-                  "answer": "Vulture",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea896"
-                },
-                {
-                  "option": 4,
-                  "answer": "Woodpecker",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea897"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea25b"
-            },
-            {
-              "question": "Which is special about the peregrine falcon?",
-              "answerOptions": [
-                {
-                  "option": 1,
-                  "answer": "It is the fastest bird on earth",
-                  "isCorrectAnswer": true,
-                  "_id": "62cbdbaf48e29528cc9ea899"
-                },
-                {
-                  "option": 2,
-                  "answer": "It is the largest bird on earth",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea89a"
-                },
-                {
-                  "option": 3,
-                  "answer": "It is the strongest bird on earth",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea89b"
-                },
-                {
-                  "option": 4,
-                  "answer": "It is the smallest bird on earth",
-                  "isCorrectAnswer": false,
-                  "_id": "62cbdbaf48e29528cc9ea89c"
-                }
-              ],
-              "_id": "62cbdbaf48e29528cc9ea25c"
-            }
-          ]
-        }
-      },
-
-      {
         "id": "6605076057da7d5aabe2f4f4",
         "quizId": "62cbdb8848e29528cc9e681e",
         "name": "BOLLYWOOD",
@@ -51456,7 +50688,777 @@
             }
           ]
         }
+      },
+
+      {
+        "id": "6605076057da7d5aabe2f4f5",
+        "quizId": "62cbdb8848e29528cc9e681d",
+        "name": "BIRDS AND ANIMALS",
+        "quizImage": "https://play309.atmequiz.com/_next/image?url=https%3A%2F%2Fstatic.atmequiz.com%2Fthumbs%2Fbirls-and-animals.png&w=48&q=75",
+        "prizeId": "62cbcbfb7e6e64183f02e135",
+        "slug": "birds-and-animals",
+        "entryCoins": 10,
+        "winningCoins": 30000,
+        "startTime": "2024-03-28T07:30:00.000Z",
+        "endTime": "2024-03-28T13:30:00.000Z",
+        "questionSet": {
+          "_id": "62cbdca248e29528cca0c695",
+          "questionSet": [
+            {
+              "question": "There are how many kinds of cat species in india?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "10",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea821"
+                },
+                {
+                  "option": 2,
+                  "answer": "15",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea822"
+                },
+                {
+                  "option": 3,
+                  "answer": "20",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea823"
+                },
+                {
+                  "option": 4,
+                  "answer": "25",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea824"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea244"
+            },
+            {
+              "question": "Which of the following has no skeleton at all?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Jelly fish",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea826"
+                },
+                {
+                  "option": 2,
+                  "answer": "Silver fish",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea827"
+                },
+                {
+                  "option": 3,
+                  "answer": "Sponge",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea828"
+                },
+                {
+                  "option": 4,
+                  "answer": "Star fish",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea829"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea245"
+            },
+            {
+              "question": "Which animal can create the loudest sound among any living creature?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Whale shark",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea82b"
+                },
+                {
+                  "option": 2,
+                  "answer": "Humpback whales",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea82c"
+                },
+                {
+                  "option": 3,
+                  "answer": "Gibbon",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea82d"
+                },
+                {
+                  "option": 4,
+                  "answer": "Howler monkey",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea82e"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea246"
+            },
+            {
+              "question": "Which one of the following is not a true fish?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Hammer fish",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea830"
+                },
+                {
+                  "option": 2,
+                  "answer": "Sucker fish",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea831"
+                },
+                {
+                  "option": 3,
+                  "answer": "Saw fish",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea832"
+                },
+                {
+                  "option": 4,
+                  "answer": "Silver fish",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea833"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea247"
+            },
+            {
+              "question": "Name the bird that migrates from the north pole to the south pole and back?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Arctic tern",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea835"
+                },
+                {
+                  "option": 2,
+                  "answer": "Swallow",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea836"
+                },
+                {
+                  "option": 3,
+                  "answer": "Crane",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea837"
+                },
+                {
+                  "option": 4,
+                  "answer": "Penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea838"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea248"
+            },
+            {
+              "question": "In which of the following kinds of organism is the phenomenon found wherein the female kills the male after copulation",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Pit viper",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea83a"
+                },
+                {
+                  "option": 2,
+                  "answer": "Honeybee",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea83b"
+                },
+                {
+                  "option": 3,
+                  "answer": "Spider",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea83c"
+                },
+                {
+                  "option": 4,
+                  "answer": "Dragonfly",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea83d"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea249"
+            },
+            {
+              "question": "Pashmina shawl is made from the hair of?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Rabbit",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea83f"
+                },
+                {
+                  "option": 2,
+                  "answer": "Goat",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea840"
+                },
+                {
+                  "option": 3,
+                  "answer": "Sheep",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea841"
+                },
+                {
+                  "option": 4,
+                  "answer": "Yak",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea842"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea24a"
+            },
+            {
+              "question": "Which animal exclusively eat only eucalyptus leaves and nothing else?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Common wombat",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea844"
+                },
+                {
+                  "option": 2,
+                  "answer": "Greater glider",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea845"
+                },
+                {
+                  "option": 3,
+                  "answer": "Koala",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea846"
+                },
+                {
+                  "option": 4,
+                  "answer": "Kangaroo",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea847"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea24b"
+            },
+            {
+              "question": "In which of the following animals is respiration done by skin?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Frog",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea849"
+                },
+                {
+                  "option": 2,
+                  "answer": "Chemeleon",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea84a"
+                },
+                {
+                  "option": 3,
+                  "answer": "Sea horse",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea84b"
+                },
+                {
+                  "option": 4,
+                  "answer": "Flying fish",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea84c"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea24c"
+            },
+            {
+              "question": "Which of the following is the national aquatic animal of india?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Dugong",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea84e"
+                },
+                {
+                  "option": 2,
+                  "answer": "Dolphin",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea84f"
+                },
+                {
+                  "option": 3,
+                  "answer": "Sea turtle",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea850"
+                },
+                {
+                  "option": 4,
+                  "answer": "Salt water crocodile",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea851"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea24d"
+            },
+            {
+              "question": "In which of the following groups animals bear no teeth?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Peacock, ostrich and tortoise",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea853"
+                },
+                {
+                  "option": 2,
+                  "answer": "Turtle, kiwi and cow",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea854"
+                },
+                {
+                  "option": 3,
+                  "answer": "Owl, loris and crow",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea855"
+                },
+                {
+                  "option": 4,
+                  "answer": "Alligator, turtle and tortoise",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea856"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea24e"
+            },
+            {
+              "question": "Which of the following body parts do not exist in birds?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Spines",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea858"
+                },
+                {
+                  "option": 2,
+                  "answer": "Toes",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea859"
+                },
+                {
+                  "option": 3,
+                  "answer": "Teeth",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea85a"
+                },
+                {
+                  "option": 4,
+                  "answer": "Tounge",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea85b"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea24f"
+            },
+            {
+              "question": "What do we call a baby swan?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "A joey",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea85d"
+                },
+                {
+                  "option": 2,
+                  "answer": "A calf",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea85e"
+                },
+                {
+                  "option": 3,
+                  "answer": "A cygnet",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea85f"
+                },
+                {
+                  "option": 4,
+                  "answer": "A kitten",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea860"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea250"
+            },
+            {
+              "question": "Which is the largest type of penguin?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "King penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea862"
+                },
+                {
+                  "option": 2,
+                  "answer": "Queen penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea863"
+                },
+                {
+                  "option": 3,
+                  "answer": "Emperor penguin",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea864"
+                },
+                {
+                  "option": 4,
+                  "answer": "Baby penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea865"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea251"
+            },
+            {
+              "question": "Which of the following birds is characterised by a big yellow bill?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Toucan",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea867"
+                },
+                {
+                  "option": 2,
+                  "answer": "Puffin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea868"
+                },
+                {
+                  "option": 3,
+                  "answer": "Ibis",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea869"
+                },
+                {
+                  "option": 4,
+                  "answer": "Penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea86a"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea252"
+            },
+            {
+              "question": "Which of the following birds lays the biggest eggs, which can weigh up to 1.9 Kilograms?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Emu",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea86c"
+                },
+                {
+                  "option": 2,
+                  "answer": "Ostrich",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea86d"
+                },
+                {
+                  "option": 3,
+                  "answer": "Song thrush",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea86e"
+                },
+                {
+                  "option": 4,
+                  "answer": "Penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea86f"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea253"
+            },
+            {
+              "question": "What is a group of ravens called?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "A spook",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea871"
+                },
+                {
+                  "option": 2,
+                  "answer": "A school",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea872"
+                },
+                {
+                  "option": 3,
+                  "answer": "A murder",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea873"
+                },
+                {
+                  "option": 4,
+                  "answer": "A folk",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea874"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea254"
+            },
+            {
+              "question": "According to an old law, who owns all swans in the united kingdom?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "The prime minister",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea876"
+                },
+                {
+                  "option": 2,
+                  "answer": "The queen",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea877"
+                },
+                {
+                  "option": 3,
+                  "answer": "The leader of the church of england",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea878"
+                },
+                {
+                  "option": 4,
+                  "answer": "The soldiers",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea879"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea255"
+            },
+            {
+              "question": "Flamingos are born with grey feathers, which gradually turn into which colour?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Blue",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea87b"
+                },
+                {
+                  "option": 2,
+                  "answer": "Pink",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea87c"
+                },
+                {
+                  "option": 3,
+                  "answer": "White",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea87d"
+                },
+                {
+                  "option": 4,
+                  "answer": "Black",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea87e"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea256"
+            },
+            {
+              "question": "Which is the lightest bird species in the world, which only weighs 1.6 Grams?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Bee hummingbird",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea880"
+                },
+                {
+                  "option": 2,
+                  "answer": "Pygmy owl",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea881"
+                },
+                {
+                  "option": 3,
+                  "answer": "Woodpecker",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea882"
+                },
+                {
+                  "option": 4,
+                  "answer": "Penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea883"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea257"
+            },
+            {
+              "question": "Approximately how many species of birds are there in the world?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Around 1,000 species",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea885"
+                },
+                {
+                  "option": 2,
+                  "answer": "Around 10,000 species",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea886"
+                },
+                {
+                  "option": 3,
+                  "answer": "Around 100,000 species",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea887"
+                },
+                {
+                  "option": 4,
+                  "answer": "Around 1000 species",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea888"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea258"
+            },
+            {
+              "question": "The united states of america chose which species of eagle as its emblem?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Bald eagle",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea88a"
+                },
+                {
+                  "option": 2,
+                  "answer": "Sea eagle",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea88b"
+                },
+                {
+                  "option": 3,
+                  "answer": "Snake eagle",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea88c"
+                },
+                {
+                  "option": 4,
+                  "answer": "Sky eagle",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea88d"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea259"
+            },
+            {
+              "question": "Which species of bird has a throat pouch to catch fish?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Heron",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea88f"
+                },
+                {
+                  "option": 2,
+                  "answer": "Kingfisher",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea890"
+                },
+                {
+                  "option": 3,
+                  "answer": "Pelican",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea891"
+                },
+                {
+                  "option": 4,
+                  "answer": "Penguin",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea892"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea25a"
+            },
+            {
+              "question": "Which of the following species is not a prey bird?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "Osprey",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea894"
+                },
+                {
+                  "option": 2,
+                  "answer": "Parrot",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea895"
+                },
+                {
+                  "option": 3,
+                  "answer": "Vulture",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea896"
+                },
+                {
+                  "option": 4,
+                  "answer": "Woodpecker",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea897"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea25b"
+            },
+            {
+              "question": "Which is special about the peregrine falcon?",
+              "answerOptions": [
+                {
+                  "option": 1,
+                  "answer": "It is the fastest bird on earth",
+                  "isCorrectAnswer": true,
+                  "_id": "62cbdbaf48e29528cc9ea899"
+                },
+                {
+                  "option": 2,
+                  "answer": "It is the largest bird on earth",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea89a"
+                },
+                {
+                  "option": 3,
+                  "answer": "It is the strongest bird on earth",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea89b"
+                },
+                {
+                  "option": 4,
+                  "answer": "It is the smallest bird on earth",
+                  "isCorrectAnswer": false,
+                  "_id": "62cbdbaf48e29528cc9ea89c"
+                }
+              ],
+              "_id": "62cbdbaf48e29528cc9ea25c"
+            }
+          ]
+        }
       }
+
+      
     ]
   }
 }

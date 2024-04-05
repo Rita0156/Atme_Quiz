@@ -1,5 +1,3 @@
-
-
 const {
     deleteQuizSet,
     updateQuizSet,
@@ -25,5 +23,3 @@ jsonDataRouter.get('/data',readDtaJsonFile)
 module.exports = {
     jsonDataRouter
 }
-
-//
