@@ -3,9 +3,8 @@ const passport = require("passport");
 const jwt = require('jsonwebtoken')
 const Secrete = process.env.SECREATE_KEY
 router.get("/login/success", (req, res) => {
-	
+	console.log('request  -----------------> ',req)
 	if (req.user) {
-		
 		const token=jwt.sign(req.user.id,Secrete)
 		console.log(token,'%%%%%%%%%%%%%%%%%%%%%%%%%%')
 		res.status(200).json({
@@ -40,9 +39,7 @@ router.get(
 );
 
 router.get("/logout", (req, res) => {
-	// req.logout();
-	// res.redirect('http://localhost:3000');
-
+	
 	req.logout(function(err) {
 		if (err) { return next(err); }
 		res.redirect('http://localhost:3000');

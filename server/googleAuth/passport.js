@@ -1,7 +1,7 @@
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const passport = require("passport");
 const { User } = require("../models/user");
-var token = null
+
 passport.use(
 	new GoogleStrategy(
 		{
@@ -11,7 +11,7 @@ passport.use(
 			scope: ["profile", "email"],
 		},
 		async function (accessToken, refreshToken, profile, callback) {
-			
+			console.log(accessToken,'token access #############################',profile,'profile&&&&&&&&&&&&&&&&&')
 			const user = await User.findOne({email : profile.emails[0].value})
 			if(!user){
 				const userData = new User({
@@ -23,8 +23,6 @@ passport.use(
 				await userData.save();
 				
 			}
-		
-		   
 			callback(null, profile);
 		}
 	)
