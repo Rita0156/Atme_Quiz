@@ -2,8 +2,9 @@
   "name": "atme_quiz",
   "version": "1.0.0",
   "description": "",
-  "files": ["data/data.json"],
- 
+  "files": [
+    "data/data.json"
+  ],
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,13 +22,16 @@
   },
   "homepage": "https://github.com/Rita0156/Atme_Quiz#readme",
   "dependencies": {
+    "aws-sdk": "^2.1593.0",
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
     "cookie-session": "^2.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-session": "^1.18.0",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
     "mongoose": "^8.2.3",
     "nodemon": "^3.1.0",
     "passport": "^0.7.0",

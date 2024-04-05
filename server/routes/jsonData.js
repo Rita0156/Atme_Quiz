@@ -7,7 +7,8 @@ const {
     getCategoryWiseData,
     getQuizQuetionsById,
     getAllQuiz,
-    getTwoRandomQuestions
+    getTwoRandomQuestions,
+    readDtaJsonFile
 } = require('../controller/jsondata/index');
 
 const Router = require('express');
@@ -20,6 +21,7 @@ jsonDataRouter.delete('delete/:id', deleteQuizSet)
 jsonDataRouter.get('/:id',getQuizQuetionsById);
 jsonDataRouter.get('/',getAllQuiz)
 jsonDataRouter.get('/questions/quiz',getTwoRandomQuestions)
+jsonDataRouter.get('/data',readDtaJsonFile)
 module.exports = {
     jsonDataRouter
 }

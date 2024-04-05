@@ -5,7 +5,7 @@ const { getAllQuiz,
     getQuizById,
     addQuetions,
     updateQuestion,
-    addCategorySet } = require('../controller/index.js')
+    addCategorySet, } = require('../controller/index.js')
 
 const categoryRouter = Router();
 

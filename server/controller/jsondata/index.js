@@ -9,6 +9,24 @@ const pathJson = path.join(process.env.FILE_PATH)
 const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
 
+// ('/users', (req, res) => {
+//   const newUser = req.body;
+//   fs.readFile('users.json', 'utf8', (err, data) => {
+//     if (err) {
+//       throw err;
+//     }
+//     const users = JSON.parse(data);
+//     newUser.id = users.length + 1;
+//     users.push(newUser);
+//     fs.writeFile('users.json', JSON.stringify(users), (err) => {
+//       if (err) {
+//         throw err;
+//       }
+//       res.send(`User with the name ${newUser.name} added to the database!`);
+//     });
+//   });
+// });
+
 const getQuizQuetionsById = (req, res) => {
   const id = req.params;
   var cricketData = allData.data.contest.find((ele) => ele.id == id.id);
@@ -106,7 +124,7 @@ const deleteQuizSet = (req, res) => {
 
   fs.writeFile(
     pathJson,
-    JSON.stringify(allData),
+    allData, 'utf8',
     (err) => {
       if (err) {
         res.status(500).send("Error writing to file");
@@ -137,6 +155,17 @@ const getTwoRandomQuestions = (req, res) => {
   res.status(200).json(indexArray);
 };
 
+
+const readDtaJsonFile =((req, res) => {
+  fs.readFile(pathJson, 'utf8', (err, data) => {
+    if (err) {
+      throw err;
+    }
+
+    res.send(JSON.parse(data));
+  });
+});
+
 module.exports = {
   deleteQuizSet,
   updateQuizSet,
@@ -145,4 +174,5 @@ module.exports = {
   getQuizQuetionsById,
   getAllQuiz,
   getTwoRandomQuestions,
+  readDtaJsonFile
 };

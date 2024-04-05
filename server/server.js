@@ -2,22 +2,19 @@
 const express = require("express");
 const cors = require("cors");
 const { connectionDb } = require("./config/db");
-// const { categoryRouter } = require('./routes/index')
-const { jsonDataRouter } = require('./routes/jsonData')
-// const passportStrategy = require('./googleAuth/passport')
+const fs = require('fs')
 const authRoute = require('./controller/google/index')
 const passport =require('passport');
 const cookieSession = require("cookie-session");
-// const {authentication} = require('./middleware/index')
-const path = require('path');
-const filePath = path.join(__dirname, 'data', 'data.json');
-// console.log(filePath,'file namr');
+const bodyParser = require('body-parser');
 require("dotenv").config();
 const PORT = process.env.PORT || 7500;
 
 const app = express();
 
 app.use(express.json());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
 	cookieSession({
 		name: "session",
@@ -25,6 +22,7 @@ app.use(
 		maxAge: 24 * 60 * 60 * 100,
 	})
 );
+const { jsonDataRouter } = require('./routes/jsonData')
 
 app.use(function(request, response, next) {
     if (request.session && !request.session.regenerate) {
@@ -56,8 +54,7 @@ app.use("/auth", authRoute);
 app.get("/", (req, res) => {
   res.json("api running currently is Atme_quiz");
 });
-// app.use('/',authentication)
-// app.use("/api/contest",categoryRouter);
+
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Expose-Headers', 'X-Total-Count');
