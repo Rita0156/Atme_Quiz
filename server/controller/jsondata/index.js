@@ -120,8 +120,16 @@ const updateQuizSet = (req, res) => {
 const deleteQuizSet = (req, res) => {
   const id = req.params.id;
 console.log(id,'inside delete request')
-allData.data.contest.splice(id, 1);
-console.log(allData.data.contest.length,'length of alldata after delete splice')
+let index = null
+for(let i=0; i<allData.data.contest.length; i++){
+  if(allData.data.contest[i].id==id){
+    index = i
+    break
+  }
+}
+
+allData.data.contest.splice(index, 1);
+console.log(index,'length of alldata after delete splice',allData.data.contest[index])
   fs.writeFile(
     pathJson,
     JSON.stringify(allData), 
