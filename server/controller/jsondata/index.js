@@ -120,7 +120,7 @@ const updateQuizSet = (req, res) => {
 const deleteQuizSet = (req, res) => {
   const id = req.params.id;
 console.log(id,'inside delete request')
-  allData.data.contest=allData.data.contest.splice(id, 1);
+allData.data.contest.splice(id, 1);
 console.log(allData.data.contest.length,'length of alldata after delete splice')
   fs.writeFile(
     pathJson,
@@ -142,7 +142,6 @@ const getAllQuiz = (req, res) => {
   res.status(200).json(allData.data.contest);
 };
 
-// without login random two quetions
 
 const getTwoRandomQuestions = (req, res) => {
   const indexArray = [];
@@ -156,7 +155,6 @@ const getTwoRandomQuestions = (req, res) => {
 
   res.status(200).json(indexArray);
 };
-
 
 const readDtaJsonFile =((req, res) => {
   fs.readFile(pathJson, 'utf8', (err, data) => {
