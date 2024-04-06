@@ -119,16 +119,18 @@ const updateQuizSet = (req, res) => {
 
 const deleteQuizSet = (req, res) => {
   const id = req.params.id;
-
-  allData.data.contest.splice(id, 1);
-
+console.log(id,'inside delete request')
+  allData.data.contest=allData.data.contest.splice(id, 1);
+console.log(allData.data.contest.length,'length of alldata after delete splice')
   fs.writeFile(
     pathJson,
     allData, 'utf8',
     (err) => {
       if (err) {
+        console.log(err,'errorn in deleet request')
         res.status(500).send("Error writing to file");
       } else {
+        console.log('deleted successfully------------------------>')
         res.status(200).send("Data deleted successfully");
       }
     }

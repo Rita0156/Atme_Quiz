@@ -15,7 +15,7 @@ const jsonDataRouter = Router();
 jsonDataRouter.put('/:id',updateQuizSet)
 jsonDataRouter.post('/',createQuiz)
 jsonDataRouter.get('/category/:name',getCategoryWiseData)
-jsonDataRouter.delete('delete/:id', deleteQuizSet)
+jsonDataRouter.delete('/:id', deleteQuizSet)
 jsonDataRouter.get('/:id',getQuizQuetionsById);
 jsonDataRouter.get('/',getAllQuiz)
 jsonDataRouter.get('/questions/quiz',getTwoRandomQuestions)
