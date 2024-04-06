@@ -124,7 +124,7 @@ console.log(id,'inside delete request')
 console.log(allData.data.contest.length,'length of alldata after delete splice')
   fs.writeFile(
     pathJson,
-    allData, 'utf8',
+    JSON.stringify(allData), 
     (err) => {
       if (err) {
         console.log(err,'errorn in deleet request')
