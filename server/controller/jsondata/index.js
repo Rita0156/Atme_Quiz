@@ -4,6 +4,20 @@ const path = require("path");
 const pathJson = path.join(process.env.FILE_PATH);
 const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
+const imageFolderPath = '../../images'; 
+
+const addImage = (imageData) => {
+   const { name, data } = imageData;
+ const namefile = `${name}.jpg`
+  const imagePath = path.join(imageFolderPath, namefile);
+  fs.writeFile(imagePath, data, (err) => {
+    if (err) {
+      console.error(`Error writing image ${name}:`, err);
+      return;
+    }
+    console.log(`Image ${name} added successfully.`);
+  });
+};
 
 const getQuizQuetionsById = (req, res) => {
   const id = req.params.id;
@@ -127,7 +141,7 @@ const getTwoRandomQuestions = (req, res) => {
 const updateCategoryName = (req, res) => {
   const id = req.params.name;
   const { name, entryCoins, quizImage } = req.body;
- 
+  
   for(let i=0; i<allData.data.length; i++){
     const changedata =allData.data[i]
     if(changedata.category == id){
@@ -139,7 +153,7 @@ const updateCategoryName = (req, res) => {
   }
 
   console.log(req.body,'&********************&&&&&&&&')
-  // console.log(allData.data,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
+  
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
       res.status(404).json({ message: "Error at update category", err });
@@ -155,6 +169,11 @@ const createNewCategory = (req, res) => {
   const newCategory = req.body;
   newCategory.quizzes = [];
   allData.data.unshift(newCategory);
+  const imgData = {
+    name:newCategory.category,
+    data: newCategory.quizImage
+  }
+  addImage(imgData)
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
       res.json({ message: "Error at creating category", err });

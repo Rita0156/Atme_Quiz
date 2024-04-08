@@ -73,3 +73,14 @@ app.listen(PORT, async () => {
     console.log("conection error is  ------------------>   ", err);
   }
 });
+
+
+
+/* 
+ json formate changed,
+ api formted as new json format,
+ category add api created,
+ category update api created,
+ image issue solved,
+ delete quiz updated
+*/
