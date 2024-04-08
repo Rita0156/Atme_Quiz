@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "files": [
-    "data/data.json"
+    "data/main.json"
   ],
   "main": "server.js",
   "scripts": {

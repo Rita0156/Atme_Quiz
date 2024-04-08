@@ -1,109 +1,72 @@
-var allData = require("../../data/data.json");
+var allData = require("../../data/main.json");
 var withoutLogin = require("../../data/first2question.json");
 const path = require("path");
-// const cricket = require('../../images/cricket.webp');
-// console.log(cricket,'image url')
 const pathJson = path.join(process.env.FILE_PATH);
-// const filePath = path.join(__dirname, 'data', 'data.json');
-// console.log(pathJson,'file namr form json')
 const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
 
-// ('/users', (req, res) => {
-//   const newUser = req.body;
-//   fs.readFile('users.json', 'utf8', (err, data) => {
-//     if (err) {
-//       throw err;
-//     }
-//     const users = JSON.parse(data);
-//     newUser.id = users.length + 1;
-//     users.push(newUser);
-//     fs.writeFile('users.json', JSON.stringify(users), (err) => {
-//       if (err) {
-//         throw err;
-//       }
-//       res.send(`User with the name ${newUser.name} added to the database!`);
-//     });
-//   });
-// });
-
 const getQuizQuetionsById = (req, res) => {
-  const id = req.params;
-  var cricketData = allData.data.contest.find((ele) => ele.id == id.id);
-  res.json(cricketData);
+  const id = req.params.id;
+  var idData = null;
+  allData.data.map((ele) => {
+    ele.quizzes.map((quiz) => {
+      if (quiz.id == id) {
+        idData = quiz;
+      }
+    });
+  });
+  res.json(idData);
 };
-
 const getCategoryWiseData = (req, res) => {
   const { name } = req.params;
-
-  if (name == "CONTEST") {
-    const encounteredNames = new Set();
-
-    const filteredArray = allData.data.contest.filter((obj) => {
-      if (!encounteredNames.has(obj.name)) {
-        encounteredNames.add(obj.name);
-        return true;
-      }
-      return false;
-    });
-    res.setHeader("X-Total-Count", filteredArray.length);
-    res.status(200).json(filteredArray);
-  } else {
-    var cricketData = allData.data.contest.filter((ele) => {
-      if (ele.name == name) {
-        return true;
-      } else return false;
-    });
-    res.setHeader("X-Total-Count", cricketData.length);
-    res.json(cricketData);
-  }
+  var categoryData = null;
+  allData.data.map((ele) => {
+    if (ele.category == name) {
+      categoryData = ele;
+    }
+  });
+  res.json(categoryData);
 };
 
 const createQuiz = (req, res) => {
   const newData = req.body;
-  newData.id = generateJSONData(10);
-  var image = "";
-  var url = "";
-  for (let i = 0; i < allData.data.contest.length; i++) {
-    if (newData.name == allData.data.contest[i].name) {
-      image = allData.data.contest[i].quizId;
-      url = allData.data.contest[i].quizImage;
-      break;
+  let id = generateJSONData(10);
+  const obj = {
+    id: id,
+    name: newData.name,
+  };
+  allData.data.map((ele) => {
+    if (ele.category == newData.category) {
+      obj.questionSet = newData.questionSet.questionSet;
+      ele.quizzes.unshift(obj);
     }
-  }
-  if (image != "") {
-    newData.quizId = image;
-    newData.quizImage = url;
-  } else {
-    newData.quizId = generateJSONData(10);
-  }
-  allData.data.contest.push(newData);
+  });
+
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
-      res.status(500).send("Error writing to file");
+      res.json({ message: "Error while creating quiz", err });
     } else {
-      res.status(201).send("Data added successfully");
+      res.status(200).json({ message: "Data added successfully", obj });
     }
   });
 };
 
 const updateQuizSet = (req, res) => {
   const id = req.params.id;
-
-  const newData = req.body;
-  console.log(
-    newData,
-    "newdata&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
-  );
-  allData.data.contest = allData.data.contest.map((ele) => {
-    return ele.id == id ? (ele = newData) : ele;
+  var idData = req.body;
+  idData.id = id;
+  allData.data = allData.data.map((ele) => {
+    ele.quizzes.map((quiz) => {
+      if (quiz.id == id) {
+        quiz = idData;
+      }
+    });
   });
-
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
-      res.status(500).json({ message: "Error writing to file", err });
+      res.json({ message: "Error while updating", err });
     } else {
-      res.status(200).json({ message: "Data updated successfully", newData });
+      res.status(200).json({ message: "Quiz updated Successfully", idData });
     }
   });
 };
@@ -111,15 +74,19 @@ const updateQuizSet = (req, res) => {
 const deleteQuizSet = (req, res) => {
   const id = req.params.id;
   let index = null;
-  for (let i = 0; i < allData.data.contest.length; i++) {
-    if (allData.data.contest[i].id == id) {
-      index = i;
-      break;
+  let ind = null;
+  for (let i = 0; i < allData.data.length; i++) {
+    let category = allData.data[i];
+    for (let j = 0; j < category.quizzes.length; j++) {
+      if (category.quizzes[j].id == id) {
+        index = j;
+        ind = i;
+        break;
+      }
     }
   }
 
-  allData.data.contest.splice(index, 1);
-
+  allData.data[ind].quizzes.splice(index, 1);
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
       res.status(500).send("Error writing to file");
@@ -130,49 +97,72 @@ const deleteQuizSet = (req, res) => {
 };
 
 const getAllQuiz = (req, res) => {
-  res.setHeader("X-Total-Count", allData.data.contest.length);
-  res.status(200).json(allData.data.contest);
+  var allQuizContest = [];
+  allData.data.map((ele) => {
+    const obj = {
+      category: ele.category,
+      quizImage: ele.quizImage,
+    };
+    ele.quizzes.map((quiz) => {
+      obj.name = quiz.name;
+      obj.id = quiz.id;
+      obj.questionSet = quiz.questionSet;
+      allQuizContest.push(obj);
+    });
+  });
+  res.json(allQuizContest);
 };
 
 const getTwoRandomQuestions = (req, res) => {
   const indexArray = [];
-
   for (let i = 0; i < 2; i++) {
     let random = Math.random() * 134;
     random = Math.floor(random);
-
     indexArray.push(withoutLogin.Question[random]);
   }
-
   res.status(200).json(indexArray);
 };
 
-const readDtaJsonFile = (req, res) => {
-  fs.readFile(pathJson, "utf8", (err, data) => {
-    if (err) {
-      throw err;
+const updateCategoryName = (req, res) => {
+  const { name, newName, entryCoins, quizImage } = req.body;
+  allData.data = allData.data.map((ele) => {
+    if (ele.category == name) {
+      ele.category = newName;
+      ele.entryCoins = entryCoins;
+      ele.quizImage = quizImage;
+      return ele;
     }
-     res.send(JSON.parse(data));
+    return ele;
+  });
+  fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
+    if (err) {
+      res.status(404).json({ message: "Error at update category", err });
+    } else {
+      res
+        .status(200)
+        .json({ message: "Category updated successfully", data: req.body });
+    }
   });
 };
 
-const updateCategoryName = (req,res) => {
-  const {name, newName} =req.params;
-  allData.data.contest = allData.data.contest.map((ele)=>{
-    if(ele.name==name){
-      ele.name = newName
-      return ele
-    }
-    else return ele
-  })
+const createNewCategory = (req, res) => {
+  const newCategory = req.body;
+  newCategory.quizzes = [];
+  allData.data.unshift(newCategory);
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
-      res.status(500).send("Error writing to file");
+      res.json({ message: "Error at creating category", err });
     } else {
-      res.status(200).send("Category updated successfully");
+      res
+        .status(200)
+        .json({ message: "Category created successfully", newCategory });
     }
   });
-}
+};
+
+const getAllCategoryName = (req, res) => {
+  res.send(allData.data);
+};
 
 module.exports = {
   deleteQuizSet,
@@ -182,6 +172,7 @@ module.exports = {
   getQuizQuetionsById,
   getAllQuiz,
   getTwoRandomQuestions,
-  readDtaJsonFile,
-  updateCategoryName
+  updateCategoryName,
+  createNewCategory,
+  getAllCategoryName,
 };
