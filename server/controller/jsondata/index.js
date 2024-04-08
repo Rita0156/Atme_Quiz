@@ -17,6 +17,7 @@ const getQuizQuetionsById = (req, res) => {
   });
   res.json(idData);
 };
+
 const getCategoryWiseData = (req, res) => {
   const { name } = req.params;
   var categoryData = null;
@@ -124,7 +125,7 @@ const getTwoRandomQuestions = (req, res) => {
 };
 
 const updateCategoryName = (req, res) => {
-  const { name, newName, entryCoins, quizImage } = req.body;
+  const { name, newName, entryCoins, quizImage, } = req.body;
   allData.data = allData.data.map((ele) => {
     if (ele.category == name) {
       ele.category = newName;
@@ -134,6 +135,8 @@ const updateCategoryName = (req, res) => {
     }
     return ele;
   });
+
+  console.log(allData.data,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@')
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
       res.status(404).json({ message: "Error at update category", err });
