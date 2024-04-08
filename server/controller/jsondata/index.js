@@ -126,7 +126,7 @@ const getTwoRandomQuestions = (req, res) => {
 
 const updateCategoryName = (req, res) => {
   const id = req.params.name;
-  const { name,entryCoins, quizImage } = req.body;
+  const { name, entryCoins, quizImage } = req.body;
  
   for(let i=0; i<allData.data.length; i++){
     const changedata =allData.data[i]
@@ -134,11 +134,12 @@ const updateCategoryName = (req, res) => {
       changedata.category=name;
       changedata.entryCoins=entryCoins;
       changedata.quizImage=quizImage;
-     break;
+      break;
     }
   }
 
-  console.log(allData.data,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
+  console.log(req.body,'&********************&&&&&&&&')
+  // console.log(allData.data,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
       res.status(404).json({ message: "Error at update category", err });
