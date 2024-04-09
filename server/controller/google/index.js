@@ -26,17 +26,28 @@ router.get("/login/failed", (req, res) => {
 	});
 });
 
-router.get("/google", passport.authenticate("google", ["profile", "email"]));
+// router.get("/google", passport.authenticate("google", ["profile", "email"]));
+router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }));
+
+// router.get(
+// 	"/google/callback",
+// 	passport.authenticate('google'),
+// 	(req, res) => {
+// 	  const redirect = req.session.oauth2return|| 'http://localhost:3000' ;
+// 	  delete req.session.oauth2return;
+// 	  res.redirect(redirect);
+// 	}
+// );
 
 router.get(
-	"/google/callback",
-	passport.authenticate('google'),
-	(req, res) => {
-	  const redirect = req.session.oauth2return|| 'http://localhost:3000' ;
-	  delete req.session.oauth2return;
-	  res.redirect(redirect);
-	}
+    "/google/callback",
+    passport.authenticate('google', { failureRedirect: '/login/failed' }),
+    (req, res) => {
+        // Authentication successful, handle redirection or response
+        res.redirect('/login/success');
+    }
 );
+
 
 router.get("/logout", (req, res) => {
 	
