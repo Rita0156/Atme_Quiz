@@ -13,7 +13,7 @@ router.get("/login/success", (req, res) => {
 			user: req.user,
 			token
 		});
-		res.redirect('http://localhost:3000');
+		
 	} else {
 		res.status(403).json({ error: true, message: "Not Authorized" });
 	}
@@ -37,11 +37,11 @@ router.get("/google", passport.authenticate("google", { scope: ["profile", "emai
 //         res.redirect('http://localhost:3000');
 //     }
 // );
-
+console.log(process.env.CLIENT_URL,'client side url')
 router.get(
 	"/google/callback",
 	passport.authenticate("google", {
-		successRedirect: process.env.CLIENT_URL||'http://localhost:3000',
+		successRedirect: process.env.CLIENT_URL,
 		failureRedirect: "/login/failed",
 	})
 );

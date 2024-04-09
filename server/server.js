@@ -49,6 +49,7 @@ app.use(function(request, response, next) {
   }
   next()
 })
+passportStrategy(passport);
 app.use("/auth", authRoute);
 app.get("/", (req, res) => {
   res.json("API running: Atme_quiz");
