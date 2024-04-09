@@ -33,8 +33,8 @@ passport.use(
 				   new User({ email:profile.emails[0].value ,
 					        googleId: profile.id,
 					        firstname:profile.name.familyName,
-					        lastname:profile.name.givenName, })
-				  .save()
+					        lastname:profile.name.givenName, }).save()
+				 
 					.then((user) => callback(null, user));
 				}
 			  });
