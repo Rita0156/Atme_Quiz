@@ -36,6 +36,19 @@ app.use(
 		credentials: true,
 	})
 );
+app.use(function(request, response, next) {
+  if (request.session && !request.session.regenerate) {
+      request.session.regenerate = (cb) => {
+          cb()
+      }
+  }
+  if (request.session && !request.session.save) {
+      request.session.save = (cb) => {
+          cb()
+      }
+  }
+  next()
+})
 app.use("/auth", authRoute);
 app.get("/", (req, res) => {
   res.json("API running: Atme_quiz");
