@@ -36,19 +36,17 @@ app.use(
 		credentials: true,
 	})
 );
-
+app.use("/auth", authRoute);
+app.get("/", (req, res) => {
+  res.json("API running: Atme_quiz");
+});
 app.use("/", (req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Expose-Headers', 'X-Total-Count');
     next();
 });
 
-app.use("/auth", authRoute);
 app.use('/api/contests', jsonDataRouter);
-
-app.get("/", (req, res) => {
-    res.json("API running: Atme_quiz");
-});
 
 app.listen(PORT, async () => {
     try {
