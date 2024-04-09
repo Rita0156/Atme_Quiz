@@ -11,7 +11,7 @@ passport.use(
 			scope: ["profile", "email"],
 		},
 		async function (accessToken, refreshToken, profile, callback) {
-			console.log(accessToken,'token access #############################',profile,'profile&&&&&&&&&&&&&&&&&')
+			// console.log(accessToken,'token access #############################',profile,'profile&&&&&&&&&&&&&&&&&')
 			const user = await User.findOne({email : profile.emails[0].value})
 			if(!user){
 				const userData = new User({
