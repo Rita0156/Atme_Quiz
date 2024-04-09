@@ -37,6 +37,7 @@ router.get("/google", passport.authenticate("google", { scope: ["profile", "emai
 //         res.redirect('http://localhost:3000');
 //     }
 // );
+
 console.log(process.env.CLIENT_URL,'client side url')
 router.get(
 	"/google/callback",
