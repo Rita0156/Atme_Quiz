@@ -29,22 +29,22 @@ router.get("/login/failed", (req, res) => {
 
 router.get("/google", passport.authenticate("google", { scope: ["profile", "email"] }));
 
-router.get(
-    "/google/callback",
-    passport.authenticate('google', { failureRedirect: '/login/failed' }),
-    (req, res) => {
-        
-        res.redirect('http://localhost:3000');
-    }
-);
-
 // router.get(
-// 	"/google/callback",
-// 	passport.authenticate("google", {
-// 		successRedirect: process.env.CLIENT_URL,
-// 		failureRedirect: "/login/failed",
-// 	})
+//     "/google/callback",
+//     passport.authenticate('google', { failureRedirect: '/login/failed' }),
+//     (req, res) => {
+        
+//         res.redirect('http://localhost:3000');
+//     }
 // );
+
+router.get(
+	"/google/callback",
+	passport.authenticate("google", {
+		successRedirect: process.env.CLIENT_URL||'http://localhost:3000',
+		failureRedirect: "/login/failed",
+	})
+);
 
 router.get("/logout", (req, res) => {
 	
