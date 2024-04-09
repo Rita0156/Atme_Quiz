@@ -3,7 +3,7 @@ const passport = require("passport");
 const jwt = require('jsonwebtoken')
 const Secrete = process.env.SECREATE_KEY
 router.get("/login/success", (req, res) => {
-	
+	console.log(req,'@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@',req.user,'&&&&&&&&&&&&&&&&&&&&&&&&')
 	if (req.user) {
 		const token=jwt.sign(req.user.id,Secrete)
 		console.log(token,'%%%%%%%%%%%%%%%%%%%%%%%%%%')
