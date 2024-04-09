@@ -100,7 +100,7 @@ const deleteQuizSet = (req, res) => {
       }
     }
   }
-
+ console.log(allData.data[ind].quizzes[index],'indexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
   allData.data[ind].quizzes.splice(index, 1);
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
