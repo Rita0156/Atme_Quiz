@@ -5,6 +5,7 @@ const fs = require('fs')
 const authRoute = require('./controller/google/index')
 const passport = require('passport');
 const cookieSession = require("cookie-session");
+const passportStrategy = require('./googleAuth/passport')
 const bodyParser = require('body-parser');
 require("dotenv").config();
 const { jsonDataRouter } = require('./routes/jsonData');
@@ -13,30 +14,29 @@ const PORT = process.env.PORT || 7500;
 
 const app = express();
 
-// Middleware
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Configure session and Passport
 app.use(
-    cookieSession({
-        name: "session",
-        keys: ["cyberwolve"],
-        maxAge: 24 * 60 * 60 * 1000, // Corrected maxAge value
-    })
+	cookieSession({
+		name: "session",
+		keys: ["cyberwolve"],
+		maxAge: 24 * 60 * 60 * 100,
+	})
 );
+
 app.use(passport.initialize());
 app.use(passport.session());
 
-// CORS setup
-app.use(cors({
-    origin: "http://localhost:3000",
-    methods: "GET,POST,PUT,DELETE",
-    credentials: true,
-}));
+app.use(
+	cors({
+		origin: "http://localhost:3000",
+		methods: "GET,POST,PUT,DELETE",
+		credentials: true,
+	})
+);
 
-// Routes
 app.use("/", (req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Expose-Headers', 'X-Total-Count');
@@ -50,7 +50,6 @@ app.get("/", (req, res) => {
     res.json("API running: Atme_quiz");
 });
 
-// Start server
 app.listen(PORT, async () => {
     try {
         await connectionDb;
