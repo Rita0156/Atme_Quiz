@@ -21,9 +21,9 @@ passport.use(
                     lastname:profile.name.givenName,
 				})
 				await userData.save();
-				
+				return callback(null, profile);
 			}
-			callback(null, profile);
+			return callback(null, profile);
 		}
 	)
 );
