@@ -32,12 +32,9 @@ router.get(
 	"/google/callback",
 	passport.authenticate('google'),
 	(req, res) => {
-	//   const redirect = req.session.oauth2return|| 'http://localhost:3000' ;
-	//   delete req.session.oauth2return;
-	//   res.redirect(redirect);
-	const redirect = req.session.previousPage || 'http://localhost:3000'; 
-        delete req.session.previousPage; 
-        res.redirect(redirect);
+	  const redirect = req.session.oauth2return|| 'http://localhost:3000' ;
+	  delete req.session.oauth2return;
+	  res.redirect(redirect);
 	}
 );
 
@@ -49,11 +46,4 @@ router.get("/logout", (req, res) => {
 	  })
 });
 
-router.use((req, res, next) => {
-    // Store the previous page in session
-    if (req.method === 'GET' && req.path !== '/google/callback') {
-        req.session.previousPage = req.originalUrl;
-    }
-    next();
-});
 module.exports = router;
