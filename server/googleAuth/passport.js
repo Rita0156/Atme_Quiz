@@ -12,18 +12,32 @@ passport.use(
 		},
 		async function (accessToken, refreshToken, profile, callback) {
 			// console.log(accessToken,'token access #############################',profile,'profile&&&&&&&&&&&&&&&&&')
-			const user = await User.findOne({email : profile.emails[0].value})
-			if(!user){
-				const userData = new User({
-					email:profile.emails[0].value ,
-                    googleId: profile.id,
-                    firstname:profile.name.familyName,
-                    lastname:profile.name.givenName,
-				})
-				await userData.save();
-				return callback(null, profile);
-			}
-			return callback(null, profile);
+			// const user = await User.findOne({email : profile.emails[0].value})
+			// if(!user){
+			// 	const userData = new User({
+			// 		email:profile.emails[0].value ,
+            //         googleId: profile.id,
+            //         firstname:profile.name.familyName,
+            //         lastname:profile.name.givenName,
+			// 	})
+			// 	await userData.save();
+			// 	return callback(null, profile);
+			// }
+			// return callback(null, profile);
+			User.findOne({ email : profile.emails[0].value }).then((existingUser) => {
+				if (existingUser) {
+				 
+				  callback(null, existingUser);
+				} else {
+				  
+				   new User({ email:profile.emails[0].value ,
+					        googleId: profile.id,
+					        firstname:profile.name.familyName,
+					        lastname:profile.name.givenName, })
+				  .save()
+					.then((user) => callback(null, user));
+				}
+			  });
 		}
 	)
 );
