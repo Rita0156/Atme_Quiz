@@ -74,8 +74,10 @@ const updateQuizSet = (req, res) => {
     ele.quizzes.map((quiz) => {
       if (quiz.id == id) {
         quiz = idData;
+        
       }
     });
+    return ele
   });
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
