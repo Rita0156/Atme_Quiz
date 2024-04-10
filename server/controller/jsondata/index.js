@@ -73,7 +73,9 @@ const updateQuizSet = (req, res) => {
   allData.data = allData.data.map((ele) => {
     ele.quizzes.map((quiz) => {
       if (quiz.id == id) {
-        quiz = idData;
+        quiz.name = idData.name;
+        quiz.questionSet =idData.questionSet
+        
         
       }
     });
