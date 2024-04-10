@@ -33,9 +33,11 @@ app.use(
 	cors({
 		origin: "http://localhost:3000",
 		methods: "GET,POST,PUT,DELETE,PATCH",
+        allowedHeaders: 'Content-Type,Authorization,Custom-Header',
 		credentials: true,
 	})
 );
+app.options('*', cors());
 app.use(function(request, response, next) {
   if (request.session && !request.session.regenerate) {
       request.session.regenerate = (cb) => {
