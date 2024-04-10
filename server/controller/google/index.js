@@ -42,7 +42,7 @@ console.log(process.env.CLIENT_URL,'client side url')
 router.get(
 	"/google/callback",
 	passport.authenticate("google", {
-		successRedirect: process.env.CLIENT_URL,
+		successRedirect: 'http://localhost:3000',
 		failureRedirect: "/login/failed",
 	})
 );

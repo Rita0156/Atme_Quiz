@@ -4,11 +4,11 @@ const path = require("path");
 const pathJson = path.join(process.env.FILE_PATH);
 const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
-const imageFolderPath = '../../images'; 
+const imageFolderPath = "../../images";
 
 const addImage = (imageData) => {
-   const { name, data } = imageData;
- const namefile = `${name}.jpg`
+  const { name, data } = imageData;
+  const namefile = `${name}.jpg`;
   const imagePath = path.join(imageFolderPath, namefile);
   fs.writeFile(imagePath, data, (err) => {
     if (err) {
@@ -100,7 +100,10 @@ const deleteQuizSet = (req, res) => {
       }
     }
   }
- console.log(allData.data[ind].quizzes[index],'indexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+  console.log(
+    allData.data[ind].quizzes[index],
+    "indexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  );
   allData.data[ind].quizzes.splice(index, 1);
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
@@ -141,19 +144,19 @@ const getTwoRandomQuestions = (req, res) => {
 const updateCategoryName = (req, res) => {
   const id = req.params.name;
   const { name, entryCoins, quizImage } = req.body;
-  
-  for(let i=0; i<allData.data.length; i++){
-    const changedata =allData.data[i]
-    if(changedata.category == id){
-      changedata.category=name;
-      changedata.entryCoins=entryCoins;
-      changedata.quizImage=quizImage;
+
+  for (let i = 0; i < allData.data.length; i++) {
+    const changedata = allData.data[i];
+    if (changedata.category == id) {
+      changedata.category = name;
+      changedata.entryCoins = entryCoins;
+      changedata.quizImage = quizImage;
       break;
     }
   }
 
-  console.log(req.body,'&********************&&&&&&&&')
-  
+  console.log(req.body, "&********************&&&&&&&&");
+
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
       res.status(404).json({ message: "Error at update category", err });
@@ -170,10 +173,10 @@ const createNewCategory = (req, res) => {
   newCategory.quizzes = [];
   allData.data.unshift(newCategory);
   const imgData = {
-    name:newCategory.category,
-    data: newCategory.quizImage
-  }
-  addImage(imgData)
+    name: newCategory.category,
+    data: newCategory.quizImage,
+  };
+  addImage(imgData);
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
       res.json({ message: "Error at creating category", err });
@@ -187,6 +190,33 @@ const createNewCategory = (req, res) => {
 
 const getAllCategoryName = (req, res) => {
   res.send(allData.data);
+};
+
+const deleteCategory = (req, res) => {
+  const name = req.params.name;
+  const isQuizExists = true;
+  const index = null;
+  for (let i = 0; i < allData.data.length; i++) {
+    if (allData.data[i].category == name) {
+      if (allData.data[i].quizzes.length == 0) {
+        index = i;
+        break;
+      }
+    }
+  }
+  if (index != null) {
+    allData.data[index].splice(index, 1);
+    fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
+      if (err) {
+        res.status(404).json({ message: "Error at delete category", err });
+      } else {
+        res
+          .status(200)
+          .json({ message: "Category deleted successfully", data: req.body });
+      }
+    });
+  }
+  else res.json({message:"Category is not empty"})
 };
 
 module.exports = {
