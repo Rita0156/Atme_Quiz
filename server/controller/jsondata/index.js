@@ -75,8 +75,7 @@ const updateQuizSet = (req, res) => {
       if (quiz.id == id) {
         quiz.name = idData.name;
         quiz.questionSet =idData.questionSet
-        
-        
+               
       }
     });
     return ele
