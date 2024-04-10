@@ -9,6 +9,7 @@ const {
   updateCategoryName,
   createNewCategory,
   getAllCategoryName,
+  deleteCategory
 } = require("../controller/jsondata/index");
 
 const Router = require("express");
@@ -24,6 +25,7 @@ jsonDataRouter.get("/questions/quiz", getTwoRandomQuestions);
 jsonDataRouter.post("/add/category", createNewCategory);
 jsonDataRouter.patch("/:name", updateCategoryName);
 jsonDataRouter.get("/all/category", getAllCategoryName);
+jsonDataRouter.delete('/category/:name',deleteCategory)
 module.exports = {
   jsonDataRouter,
 };
