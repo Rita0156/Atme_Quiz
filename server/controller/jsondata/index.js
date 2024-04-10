@@ -143,12 +143,12 @@ const getTwoRandomQuestions = (req, res) => {
 
 const updateCategoryName = (req, res) => {
   const id = req.params.name;
-  const { name, entryCoins, quizImage } = req.body;
+  const { category, entryCoins, quizImage } = req.body;
 
   for (let i = 0; i < allData.data.length; i++) {
     const changedata = allData.data[i];
     if (changedata.category == id) {
-      changedata.category = name;
+      changedata.category = category;
       changedata.entryCoins = entryCoins;
       changedata.quizImage = quizImage;
       break;
