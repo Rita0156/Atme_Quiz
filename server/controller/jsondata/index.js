@@ -208,7 +208,7 @@ const deleteCategory = (req, res) => {
     }
   }
   if (index != null) {
-    allData.data[index].splice(index, 1);
+    allData.data.splice(index, 1);
     fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
       if (err) {
         res.status(404).json({ message: "Error at delete category", err });
