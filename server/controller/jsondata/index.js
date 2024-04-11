@@ -120,14 +120,16 @@ const deleteQuizSet = (req, res) => {
 const getAllQuiz = (req, res) => {
   var allQuizContest = [];
   allData.data.map((ele) => {
-    const obj = {
-      category: ele.category,
-      quizImage: ele.quizImage,
-    };
+    
     ele.quizzes.map((quiz) => {
-      obj.name = quiz.name;
-      obj.id = quiz.id;
-      obj.questionSet = quiz.questionSet;
+     
+      const obj = {
+        category: ele.category,
+        quizImage: ele.quizImage,
+        name : quiz.name,
+        id : quiz.id,
+        questionSet : quiz.questionSet,
+      };
       allQuizContest.push(obj);
     });
   });
