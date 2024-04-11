@@ -74,11 +74,10 @@ const updateQuizSet = (req, res) => {
     ele.quizzes.map((quiz) => {
       if (quiz.id == id) {
         quiz.name = idData.name;
-        quiz.questionSet =idData.questionSet
-               
+        quiz.questionSet = idData.questionSet;
       }
     });
-    return ele
+    return ele;
   });
   fs.writeFile(pathJson, JSON.stringify(allData), (err) => {
     if (err) {
@@ -112,6 +111,7 @@ const deleteQuizSet = (req, res) => {
     if (err) {
       res.status(500).send("Error writing to file");
     } else {
+
       res.status(200).send("Data deleted successfully");
     }
   });
@@ -131,6 +131,7 @@ const getAllQuiz = (req, res) => {
       allQuizContest.push(obj);
     });
   });
+  res.setHeader('x-total-count', allQuizContest.length);
   res.json(allQuizContest);
 };
 
@@ -200,11 +201,12 @@ const deleteCategory = (req, res) => {
   const isQuizExists = true;
   const index = null;
   for (let i = 0; i < allData.data.length; i++) {
-    if (allData.data[i].category == name && allData.data[i].quizzes.length == 0) {
-     
-        index = i;
-        break;
-     
+    if (
+      allData.data[i].category == name &&
+      allData.data[i].quizzes.length == 0
+    ) {
+      index = i;
+      break;
     }
   }
   if (index != null) {
@@ -218,8 +220,7 @@ const deleteCategory = (req, res) => {
           .json({ message: "Category deleted successfully", data: req.body });
       }
     });
-  }
-  else res.json({message:"Category is not empty"})
+  } else res.json({ message: "Category is not empty" });
 };
 module.exports = {
   deleteQuizSet,
@@ -232,5 +233,5 @@ module.exports = {
   updateCategoryName,
   createNewCategory,
   getAllCategoryName,
-  deleteCategory
+  deleteCategory,
 };
