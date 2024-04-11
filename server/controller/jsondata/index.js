@@ -200,11 +200,11 @@ const deleteCategory = (req, res) => {
   const isQuizExists = true;
   const index = null;
   for (let i = 0; i < allData.data.length; i++) {
-    if (allData.data[i].category == name) {
-      if (allData.data[i].quizzes.length == 0) {
+    if (allData.data[i].category == name && allData.data[i].quizzes.length == 0) {
+     
         index = i;
         break;
-      }
+     
     }
   }
   if (index != null) {
@@ -221,7 +221,6 @@ const deleteCategory = (req, res) => {
   }
   else res.json({message:"Category is not empty"})
 };
-
 module.exports = {
   deleteQuizSet,
   updateQuizSet,
