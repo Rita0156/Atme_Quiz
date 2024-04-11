@@ -40,6 +40,7 @@ const getCategoryWiseData = (req, res) => {
       categoryData = ele;
     }
   });
+  res.setHeader('x-total-count', categoryData.length);
   res.json(categoryData);
 };
 
@@ -195,6 +196,7 @@ const createNewCategory = (req, res) => {
 };
 
 const getAllCategoryName = (req, res) => {
+  res.setHeader('x-total-count', allData.data.length);
   res.send(allData.data);
 };
 
