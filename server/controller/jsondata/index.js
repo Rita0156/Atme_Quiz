@@ -1,11 +1,19 @@
 var allData = require("../../data/main.json");
 var withoutLogin = require("../../data/first2question.json");
-const path = require("path");
-const pathJson = path.join(process.env.FILE_PATH);
+// const path = require("path");
+// const pathJson = path.join(process.env.FILE_PATH);
 const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
 const imageFolderPath = "../../images";
-
+// const { name } = req.params;
+let name = 'Cricket'
+  var categoryData = null;
+  allData.data.map((ele) => {
+    if (ele.category == name) {
+      categoryData=ele;
+    }
+  });
+  console.log(categoryData,'categoriwise data')
 const addImage = (imageData) => {
   const { name, data } = imageData;
   const namefile = `${name}.jpg`;
@@ -37,10 +45,11 @@ const getCategoryWiseData = (req, res) => {
   var categoryData = null;
   allData.data.map((ele) => {
     if (ele.category == name) {
-      categoryData = ele;
+      categoryData=ele;
     }
   });
-  res.setHeader('x-total-count', categoryData.length);
+  console.log(categoryData,'categoriwise data')
+  // res.setHeader('x-total-count', categoryData.length);
   res.json(categoryData);
 };
 
