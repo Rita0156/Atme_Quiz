@@ -6,14 +6,7 @@ const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
 const imageFolderPath = "../../images";
 // const { name } = req.params;
-let name = 'Cricket'
-  var categoryData = null;
-  allData.data.map((ele) => {
-    if (ele.category == name) {
-      categoryData=ele;
-    }
-  });
-  console.log(categoryData,'categoriwise data')
+
 const addImage = (imageData) => {
   const { name, data } = imageData;
   const namefile = `${name}.jpg`;
