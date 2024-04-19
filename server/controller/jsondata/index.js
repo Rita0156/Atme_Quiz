@@ -5,7 +5,6 @@ var withoutLogin = require("../../data/first2question.json");
 const fs = require("fs");
 const { generateJSONData } = require("../../utils/autogenerateId");
 const imageFolderPath = "../../images";
-// const { name } = req.params;
 
 const addImage = (imageData) => {
   const { name, data } = imageData;
